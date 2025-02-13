@@ -1,0 +1,3 @@
+[INFO] Modified zeroshot weights shape: torch.Size([50000, 5, 512])
+Computing logits: 100%|██████████████████████████████████████████████████| 13/13 [00:00<00:00, 6367.62it/s]
+Top-1 Accuracy: 62.17%, Top-5 Accuracy: 88.81%

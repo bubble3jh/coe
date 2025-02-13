@@ -1,0 +1,87 @@
+{
+  "os": "Linux-5.4.0-144-generic-x86_64-with-glibc2.31",
+  "python": "CPython 3.11.11",
+  "startedAt": "2025-01-30T19:48:47.708700Z",
+  "args": [
+    "--alpha",
+    "1",
+    "--beta",
+    "0",
+    "--gamma",
+    "0",
+    "--method",
+    "projection"
+  ],
+  "program": "/data1/bubble3jh/COE/zs_mod.py",
+  "codePath": "COE/zs_mod.py",
+  "git": {
+    "commit": "9a72c0d6daa9d8628994d8eed1c70c5337f34a0d"
+  },
+  "email": "bubble3jh@gmail.com",
+  "root": "/data1/bubble3jh/COE",
+  "host": "mlai",
+  "executable": "/data1/bubble3jh/anaconda3/envs/coe/bin/python",
+  "codePathLocal": "zs_mod.py",
+  "cpu_count": 56,
+  "cpu_count_logical": 112,
+  "gpu": "NVIDIA RTX A6000",
+  "gpu_count": 7,
+  "disk": {
+    "/": {
+      "total": "470306373632",
+      "used": "235191664640"
+    }
+  },
+  "memory": {
+    "total": "810953461760"
+  },
+  "cpu": {
+    "count": 56,
+    "countLogical": 112
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA RTX A6000",
+      "memoryTotal": "51527024640",
+      "cudaCores": 10752,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA RTX A6000",
+      "memoryTotal": "51527024640",
+      "cudaCores": 10752,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA RTX A6000",
+      "memoryTotal": "51527024640",
+      "cudaCores": 10752,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA RTX A6000",
+      "memoryTotal": "51527024640",
+      "cudaCores": 10752,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA RTX A6000",
+      "memoryTotal": "51527024640",
+      "cudaCores": 10752,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA RTX A6000",
+      "memoryTotal": "51527024640",
+      "cudaCores": 10752,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA RTX A6000",
+      "memoryTotal": "51527024640",
+      "cudaCores": 10752,
+      "architecture": "Ampere"
+    }
+  ],
+  "cudaVersion": "11.6"
+}

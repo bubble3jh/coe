@@ -1,0 +1,23 @@
+[INFO] Modified zeroshot weights shape: torch.Size([50000, 5, 512])
+Computing logits: 100%|██████████████████████████████████████████████████| 13/13 [00:00<00:00, 7067.52it/s]
+Top-1 Accuracy: 60.49%, Top-5 Accuracy: 88.81%
+[34m[1mwandb[0m: [32m[41mERROR[0m Attempted to change value of key "gamma" from 0.5 to 1.0
+[34m[1mwandb[0m: [32m[41mERROR[0m If you really want to do this, pass allow_val_change=True to config.update()
+Traceback (most recent call last):
+  File "/data1/bubble3jh/COE/zs_mod.py", line 631, in <module>
+    main()
+  File "/data1/bubble3jh/COE/zs_mod.py", line 622, in main
+    wandb.config.update(args)
+  File "/data1/bubble3jh/anaconda3/envs/coe/lib/python3.11/site-packages/wandb/sdk/wandb_config.py", line 187, in update
+    sanitized = self._update(d, allow_val_change)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/bubble3jh/anaconda3/envs/coe/lib/python3.11/site-packages/wandb/sdk/wandb_config.py", line 180, in _update
+    sanitized = self._sanitize_dict(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/data1/bubble3jh/anaconda3/envs/coe/lib/python3.11/site-packages/wandb/sdk/wandb_config.py", line 267, in _sanitize_dict
+    k, v = self._sanitize(k, v, allow_val_change)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/bubble3jh/anaconda3/envs/coe/lib/python3.11/site-packages/wandb/sdk/wandb_config.py", line 288, in _sanitize
+    raise config_util.ConfigError(
+wandb.sdk.lib.config_util.ConfigError: Attempted to change value of key "gamma" from 0.5 to 1.0
+If you really want to do this, pass allow_val_change=True to config.update()

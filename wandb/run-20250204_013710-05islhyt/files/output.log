@@ -1,0 +1,5 @@
+[INFO] Alpha: 1.0, Beta: 1e-05, Method: svd_proj
+[INFO] Modified Cosine Similarity: 0.99951171875
+------------------------------------------------------
+Computing logits: 100%|██████████████████████████████████████████████████| 13/13 [00:00<00:00, 8120.02it/s]
+Top-1 Accuracy: 62.95%, Top-5 Accuracy: 88.81%

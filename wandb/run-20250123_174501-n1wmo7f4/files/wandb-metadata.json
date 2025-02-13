@@ -1,0 +1,27 @@
+{
+  "os": "Linux-5.4.0-144-generic-x86_64-with-glibc2.31",
+  "python": "CPython 3.11.11",
+  "startedAt": "2025-01-23T17:45:01.925448Z",
+  "args": [
+    "--model",
+    "ViT-L/14",
+    "--dataset",
+    "ImageNet",
+    "--target_coef",
+    "1.25",
+    "--group_coef",
+    "0.0",
+    "--negative_coef",
+    "0.0"
+  ],
+  "program": "/data1/bubble3jh/COE/zs_jh.py",
+  "codePath": "COE/zs_jh.py",
+  "git": {
+    "commit": "9a72c0d6daa9d8628994d8eed1c70c5337f34a0d"
+  },
+  "email": "bubble3jh@gmail.com",
+  "root": "/data1/bubble3jh/COE",
+  "host": "mlai",
+  "executable": "/data1/bubble3jh/anaconda3/envs/coe/bin/python",
+  "codePathLocal": "zs_jh.py"
+}

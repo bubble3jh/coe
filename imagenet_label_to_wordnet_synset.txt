@@ -1,0 +1,5002 @@
+{
+  "0": {
+    "id": "tench.n.01",
+    "label": "tench",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/tench.n.01"
+  },
+  "1": {
+    "id": "goldfish.n.01",
+    "label": "goldfish",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/goldfish.n.01"
+  },
+  "2": {
+    "id": "big.s.13",
+    "label": "great white shark",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/big.s.13"
+  },
+  "3": {
+    "id": "carcharhinidae.n.01",
+    "label": "tiger shark",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/carcharhinidae.n.01"
+  },
+  "4": {
+    "id": "sphyrnidae.n.01",
+    "label": "hammerhead shark",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/sphyrnidae.n.01"
+  },
+  "5": {
+    "id": "torpedinidae.n.01",
+    "label": "electric ray",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/torpedinidae.n.01"
+  },
+  "6": {
+    "id": "stingray.n.01",
+    "label": "stingray",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/stingray.n.01"
+  },
+  "7": {
+    "id": "cock.n.04",
+    "label": "rooster",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/cock.n.04"
+  },
+  "8": {
+    "id": "hen.n.01",
+    "label": "hen",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/hen.n.01"
+  },
+  "9": {
+    "id": "ostrich.n.01",
+    "label": "ostrich",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/ostrich.n.01"
+  },
+  "10": {
+    "id": "brambling.n.01",
+    "label": "brambling",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/brambling.n.01"
+  },
+  "11": {
+    "id": "new_world_goldfinch.n.01",
+    "label": "goldfinch",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/new_world_goldfinch.n.01"
+  },
+  "12": {
+    "id": "carpodacus.n.01",
+    "label": "house finch",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/carpodacus.n.01"
+  },
+  "13": {
+    "id": "junco.n.01",
+    "label": "junco",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/junco.n.01"
+  },
+  "14": {
+    "id": "u.s.01",
+    "label": "indigo bunting",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "15": {
+    "id": "in.s.03",
+    "label": "American robin",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/in.s.03"
+  },
+  "16": {
+    "id": "bulbul.n.01",
+    "label": "bulbul",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/bulbul.n.01"
+  },
+  "17": {
+    "id": "jay.n.02",
+    "label": "jay",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/jay.n.02"
+  },
+  "18": {
+    "id": "magpie.n.01",
+    "label": "magpie",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/magpie.n.01"
+  },
+  "19": {
+    "id": "chickadee.n.01",
+    "label": "chickadee",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/chickadee.n.01"
+  },
+  "20": {
+    "id": "one.s.01",
+    "label": "American dipper",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "21": {
+    "id": "one.s.01",
+    "label": "kite (bird of prey)",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "22": {
+    "id": "bald.s.02",
+    "label": "bald eagle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/bald.s.02"
+  },
+  "23": {
+    "id": "vulture.n.01",
+    "label": "vulture",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/vulture.n.01"
+  },
+  "24": {
+    "id": "big.s.13",
+    "label": "great grey owl",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/big.s.13"
+  },
+  "25": {
+    "id": "one.s.01",
+    "label": "fire salamander",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "26": {
+    "id": "new.s.11",
+    "label": "smooth newt",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/new.s.11"
+  },
+  "27": {
+    "id": "newt.n.01",
+    "label": "newt",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/newt.n.01"
+  },
+  "28": {
+    "id": "potted.s.03",
+    "label": "spotted salamander",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/potted.s.03"
+  },
+  "29": {
+    "id": "axolotl.n.01",
+    "label": "axolotl",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/axolotl.n.01"
+  },
+  "30": {
+    "id": "u.s.01",
+    "label": "American bullfrog",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "31": {
+    "id": "polypedatidae.n.01",
+    "label": "tree frog",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/polypedatidae.n.01"
+  },
+  "32": {
+    "id": "ascaphidae.n.01",
+    "label": "tailed frog",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/ascaphidae.n.01"
+  },
+  "33": {
+    "id": "u.s.01",
+    "label": "loggerhead sea turtle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "34": {
+    "id": "back.s.02",
+    "label": "leatherback sea turtle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/back.s.02"
+  },
+  "35": {
+    "id": "kinosternidae.n.01",
+    "label": "mud turtle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/kinosternidae.n.01"
+  },
+  "36": {
+    "id": "terrapin.n.01",
+    "label": "terrapin",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/terrapin.n.01"
+  },
+  "37": {
+    "id": "terrapene.n.01",
+    "label": "box turtle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/terrapene.n.01"
+  },
+  "38": {
+    "id": "coleonyx.n.01",
+    "label": "banded gecko",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/coleonyx.n.01"
+  },
+  "39": {
+    "id": "u.s.01",
+    "label": "green iguana",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "40": {
+    "id": "in.s.03",
+    "label": "Carolina anole",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/in.s.03"
+  },
+  "41": {
+    "id": "hep.s.01",
+    "label": "desert grassland whiptail lizard",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/hep.s.01"
+  },
+  "42": {
+    "id": "agama.n.01",
+    "label": "agama",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/agama.n.01"
+  },
+  "43": {
+    "id": "frilled.s.01",
+    "label": "frilled-necked lizard",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/frilled.s.01"
+  },
+  "44": {
+    "id": "anguidae.n.01",
+    "label": "alligator lizard",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/anguidae.n.01"
+  },
+  "45": {
+    "id": "on.a.01",
+    "label": "Gila monster",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/on.a.01"
+  },
+  "46": {
+    "id": "u.s.01",
+    "label": "European green lizard",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "47": {
+    "id": "chameleon.n.01",
+    "label": "chameleon",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/chameleon.n.01"
+  },
+  "48": {
+    "id": "mod.s.01",
+    "label": "Komodo dragon",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/mod.s.01"
+  },
+  "49": {
+    "id": "collect.s.01",
+    "label": "Nile crocodile",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/collect.s.01"
+  },
+  "50": {
+    "id": "all.s.02",
+    "label": "American alligator",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/all.s.02"
+  },
+  "51": {
+    "id": "triceratops.n.01",
+    "label": "triceratops",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/triceratops.n.01"
+  },
+  "52": {
+    "id": "thousand.s.01",
+    "label": "worm snake",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/thousand.s.01"
+  },
+  "53": {
+    "id": "in.s.03",
+    "label": "ring-necked snake",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/in.s.03"
+  },
+  "54": {
+    "id": "stern.s.03",
+    "label": "eastern hog-nosed snake",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/stern.s.03"
+  },
+  "55": {
+    "id": "placid.s.01",
+    "label": "smooth green snake",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/placid.s.01"
+  },
+  "56": {
+    "id": "king_snake.n.01",
+    "label": "kingsnake",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/king_snake.n.01"
+  },
+  "57": {
+    "id": "thamnophis.n.01",
+    "label": "garter snake",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/thamnophis.n.01"
+  },
+  "58": {
+    "id": "natrix.n.01",
+    "label": "water snake",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/natrix.n.01"
+  },
+  "59": {
+    "id": "oxybelis.n.01",
+    "label": "vine snake",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/oxybelis.n.01"
+  },
+  "60": {
+    "id": "hypsiglena.n.01",
+    "label": "night snake",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/hypsiglena.n.01"
+  },
+  "61": {
+    "id": "stern.s.03",
+    "label": "boa constrictor",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/stern.s.03"
+  },
+  "62": {
+    "id": "on.a.01",
+    "label": "African rock python",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/on.a.01"
+  },
+  "63": {
+    "id": "one.s.01",
+    "label": "Indian cobra",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "64": {
+    "id": "green.s.01",
+    "label": "green mamba",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/green.s.01"
+  },
+  "65": {
+    "id": "hydrophidae.n.01",
+    "label": "sea snake",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/hydrophidae.n.01"
+  },
+  "66": {
+    "id": "horned.a.01",
+    "label": "Saharan horned viper",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/horned.a.01"
+  },
+  "67": {
+    "id": "back.s.02",
+    "label": "eastern diamondback rattlesnake",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/back.s.02"
+  },
+  "68": {
+    "id": "in.s.03",
+    "label": "sidewinder rattlesnake",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/in.s.03"
+  },
+  "69": {
+    "id": "trilobite.n.01",
+    "label": "trilobite",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/trilobite.n.01"
+  },
+  "70": {
+    "id": "harvestman.n.01",
+    "label": "harvestman",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/harvestman.n.01"
+  },
+  "71": {
+    "id": "scorpion.n.03",
+    "label": "scorpion",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/scorpion.n.03"
+  },
+  "72": {
+    "id": "chicken.s.01",
+    "label": "yellow garden spider",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/chicken.s.01"
+  },
+  "73": {
+    "id": "aranea.n.01",
+    "label": "barn spider",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/aranea.n.01"
+  },
+  "74": {
+    "id": "u.s.01",
+    "label": "European garden spider",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "75": {
+    "id": "extinct.s.03",
+    "label": "southern black widow",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/extinct.s.03"
+  },
+  "76": {
+    "id": "european_wolf_spider.n.01",
+    "label": "tarantula",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/european_wolf_spider.n.01"
+  },
+  "77": {
+    "id": "lycosidae.n.01",
+    "label": "wolf spider",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/lycosidae.n.01"
+  },
+  "78": {
+    "id": "tick.n.01",
+    "label": "tick",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/tick.n.01"
+  },
+  "79": {
+    "id": "centipede.n.01",
+    "label": "centipede",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/centipede.n.01"
+  },
+  "80": {
+    "id": "lyrurus.n.01",
+    "label": "black grouse",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/lyrurus.n.01"
+  },
+  "81": {
+    "id": "ptarmigan.n.01",
+    "label": "ptarmigan",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/ptarmigan.n.01"
+  },
+  "82": {
+    "id": "bonasa.n.01",
+    "label": "ruffed grouse",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/bonasa.n.01"
+  },
+  "83": {
+    "id": "u.s.01",
+    "label": "prairie grouse",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "84": {
+    "id": "peafowl.n.01",
+    "label": "peafowl",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/peafowl.n.01"
+  },
+  "85": {
+    "id": "quail.n.01",
+    "label": "quail",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/quail.n.01"
+  },
+  "86": {
+    "id": "partridge.n.01",
+    "label": "partridge",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/partridge.n.01"
+  },
+  "87": {
+    "id": "grey.s.01",
+    "label": "african grey parrot",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/grey.s.01"
+  },
+  "88": {
+    "id": "macaw.n.01",
+    "label": "macaw",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/macaw.n.01"
+  },
+  "89": {
+    "id": "crested.s.03",
+    "label": "sulphur-crested cockatoo",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/crested.s.03"
+  },
+  "90": {
+    "id": "lorikeet.n.01",
+    "label": "lorikeet",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/lorikeet.n.01"
+  },
+  "91": {
+    "id": "coucal.n.01",
+    "label": "coucal",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/coucal.n.01"
+  },
+  "92": {
+    "id": "coraciiformes.n.01",
+    "label": "bee eater",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/coraciiformes.n.01"
+  },
+  "93": {
+    "id": "hornbill.n.01",
+    "label": "hornbill",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/hornbill.n.01"
+  },
+  "94": {
+    "id": "hummingbird.n.01",
+    "label": "hummingbird",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/hummingbird.n.01"
+  },
+  "95": {
+    "id": "jacamar.n.01",
+    "label": "jacamar",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/jacamar.n.01"
+  },
+  "96": {
+    "id": "toucan.n.01",
+    "label": "toucan",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/toucan.n.01"
+  },
+  "97": {
+    "id": "duck.n.01",
+    "label": "duck",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/duck.n.01"
+  },
+  "98": {
+    "id": "crimson.s.02",
+    "label": "red-breasted merganser",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/crimson.s.02"
+  },
+  "99": {
+    "id": "goose.n.01",
+    "label": "goose",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/goose.n.01"
+  },
+  "100": {
+    "id": "black.s.03",
+    "label": "black swan",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/black.s.03"
+  },
+  "101": {
+    "id": "tusker.n.01",
+    "label": "tusker",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/tusker.n.01"
+  },
+  "102": {
+    "id": "echidna.n.01",
+    "label": "echidna",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/echidna.n.01"
+  },
+  "103": {
+    "id": "platypus.n.01",
+    "label": "platypus",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/platypus.n.01"
+  },
+  "104": {
+    "id": "wallaby.n.01",
+    "label": "wallaby",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/wallaby.n.01"
+  },
+  "105": {
+    "id": "koala.n.01",
+    "label": "koala",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/koala.n.01"
+  },
+  "106": {
+    "id": "wombat.n.01",
+    "label": "wombat",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/wombat.n.01"
+  },
+  "107": {
+    "id": "portuguese_man-of-war.n.01",
+    "label": "jellyfish",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/portuguese_man-of-war.n.01"
+  },
+  "108": {
+    "id": "zoophyte.n.01",
+    "label": "sea anemone",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/zoophyte.n.01"
+  },
+  "109": {
+    "id": "maeandra.n.01",
+    "label": "brain coral",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/maeandra.n.01"
+  },
+  "110": {
+    "id": "flatworm.n.01",
+    "label": "flatworm",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/flatworm.n.01"
+  },
+  "111": {
+    "id": "nematode.n.01",
+    "label": "nematode",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/nematode.n.01"
+  },
+  "112": {
+    "id": "conch.n.01",
+    "label": "conch",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/conch.n.01"
+  },
+  "113": {
+    "id": "snail.n.01",
+    "label": "snail",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/snail.n.01"
+  },
+  "114": {
+    "id": "bullet.n.01",
+    "label": "slug",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/bullet.n.01"
+  },
+  "115": {
+    "id": "opisthobranchia.n.01",
+    "label": "sea slug",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/opisthobranchia.n.01"
+  },
+  "116": {
+    "id": "chiton.n.01",
+    "label": "chiton",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/chiton.n.01"
+  },
+  "117": {
+    "id": "crimson.s.02",
+    "label": "chambered nautilus",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/crimson.s.02"
+  },
+  "118": {
+    "id": "dungeness_crab.n.01",
+    "label": "Dungeness crab",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/dungeness_crab.n.01"
+  },
+  "119": {
+    "id": "hundred.s.01",
+    "label": "rock crab",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/hundred.s.01"
+  },
+  "120": {
+    "id": "uca.n.01",
+    "label": "fiddler crab",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/uca.n.01"
+  },
+  "121": {
+    "id": "crimson.s.02",
+    "label": "red king crab",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/crimson.s.02"
+  },
+  "122": {
+    "id": "norway_lobster.n.01",
+    "label": "American lobster",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/norway_lobster.n.01"
+  },
+  "123": {
+    "id": "palinuridae.n.01",
+    "label": "spiny lobster",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/palinuridae.n.01"
+  },
+  "124": {
+    "id": "spiny_lobster.n.01",
+    "label": "crayfish",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/spiny_lobster.n.01"
+  },
+  "125": {
+    "id": "paguridae.n.01",
+    "label": "hermit crab",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/paguridae.n.01"
+  },
+  "126": {
+    "id": "isopod.n.01",
+    "label": "isopod",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/isopod.n.01"
+  },
+  "127": {
+    "id": "jabiru.n.03",
+    "label": "white stork",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/jabiru.n.03"
+  },
+  "128": {
+    "id": "black.s.03",
+    "label": "black stork",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/black.s.03"
+  },
+  "129": {
+    "id": "spoonbill.n.01",
+    "label": "spoonbill",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/spoonbill.n.01"
+  },
+  "130": {
+    "id": "flamingo.n.01",
+    "label": "flamingo",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/flamingo.n.01"
+  },
+  "131": {
+    "id": "u.s.01",
+    "label": "little blue heron",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "132": {
+    "id": "big.s.13",
+    "label": "great egret",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/big.s.13"
+  },
+  "133": {
+    "id": "acrimonious.s.01",
+    "label": "bittern bird",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/acrimonious.s.01"
+  },
+  "134": {
+    "id": "one.s.01",
+    "label": "crane bird",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "135": {
+    "id": "limpkin.n.01",
+    "label": "limpkin",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/limpkin.n.01"
+  },
+  "136": {
+    "id": "u.s.01",
+    "label": "common gallinule",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "137": {
+    "id": "one.s.01",
+    "label": "American coot",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "138": {
+    "id": "bustard.n.01",
+    "label": "bustard",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/bustard.n.01"
+  },
+  "139": {
+    "id": "u.s.01",
+    "label": "ruddy turnstone",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "140": {
+    "id": "red-backed_sandpiper.n.01",
+    "label": "dunlin",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/red-backed_sandpiper.n.01"
+  },
+  "141": {
+    "id": "crimson.s.02",
+    "label": "common redshank",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/crimson.s.02"
+  },
+  "142": {
+    "id": "dowitcher.n.01",
+    "label": "dowitcher",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/dowitcher.n.01"
+  },
+  "143": {
+    "id": "oystercatcher.n.01",
+    "label": "oystercatcher",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/oystercatcher.n.01"
+  },
+  "144": {
+    "id": "pelican.n.01",
+    "label": "pelican",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/pelican.n.01"
+  },
+  "145": {
+    "id": "u.s.01",
+    "label": "king penguin",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "146": {
+    "id": "albatross.n.01",
+    "label": "albatross",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/albatross.n.01"
+  },
+  "147": {
+    "id": "eschrichtiidae.n.01",
+    "label": "grey whale",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/eschrichtiidae.n.01"
+  },
+  "148": {
+    "id": "orcinus.n.01",
+    "label": "killer whale",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/orcinus.n.01"
+  },
+  "149": {
+    "id": "dugong.n.01",
+    "label": "dugong",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/dugong.n.01"
+  },
+  "150": {
+    "id": "pinnipedia.n.01",
+    "label": "sea lion",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/pinnipedia.n.01"
+  },
+  "151": {
+    "id": "chihuahua.n.01",
+    "label": "Chihuahua",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/chihuahua.n.01"
+  },
+  "152": {
+    "id": "in.s.03",
+    "label": "Japanese Chin",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/in.s.03"
+  },
+  "153": {
+    "id": "maltese.n.01",
+    "label": "Maltese",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/maltese.n.01"
+  },
+  "154": {
+    "id": "pekinese.n.01",
+    "label": "Pekingese",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/pekinese.n.01"
+  },
+  "155": {
+    "id": "u.s.01",
+    "label": "Shih Tzu",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "156": {
+    "id": "in.s.03",
+    "label": "King Charles Spaniel",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/in.s.03"
+  },
+  "157": {
+    "id": "ill.s.05",
+    "label": "Papillon",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/ill.s.05"
+  },
+  "158": {
+    "id": "one.s.01",
+    "label": "toy terrier",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "159": {
+    "id": "back.s.02",
+    "label": "Rhodesian Ridgeback",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/back.s.02"
+  },
+  "160": {
+    "id": "u.s.01",
+    "label": "Afghan Hound",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "161": {
+    "id": "u.s.01",
+    "label": "Basset Hound",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "162": {
+    "id": "fifty.s.01",
+    "label": "Beagle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/fifty.s.01"
+  },
+  "163": {
+    "id": "u.s.01",
+    "label": "Bloodhound",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "164": {
+    "id": "u.s.01",
+    "label": "Bluetick Coonhound",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "165": {
+    "id": "u.s.01",
+    "label": "Black and Tan Coonhound",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "166": {
+    "id": "u.s.01",
+    "label": "Treeing Walker Coonhound",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "167": {
+    "id": "u.s.01",
+    "label": "English foxhound",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "168": {
+    "id": "u.s.01",
+    "label": "Redbone Coonhound",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "169": {
+    "id": "borzoi.n.01",
+    "label": "borzoi",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/borzoi.n.01"
+  },
+  "170": {
+    "id": "u.s.01",
+    "label": "Irish Wolfhound",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "171": {
+    "id": "u.s.01",
+    "label": "Italian Greyhound",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "172": {
+    "id": "hep.s.01",
+    "label": "Whippet",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/hep.s.01"
+  },
+  "173": {
+    "id": "u.s.01",
+    "label": "Ibizan Hound",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "174": {
+    "id": "u.s.01",
+    "label": "Norwegian Elkhound",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "175": {
+    "id": "u.s.01",
+    "label": "Otterhound",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "176": {
+    "id": "saluki.n.01",
+    "label": "Saluki",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/saluki.n.01"
+  },
+  "177": {
+    "id": "u.s.01",
+    "label": "Scottish Deerhound",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "178": {
+    "id": "weimaraner.n.01",
+    "label": "Weimaraner",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/weimaraner.n.01"
+  },
+  "179": {
+    "id": "u.s.01",
+    "label": "Staffordshire Bull Terrier",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "180": {
+    "id": "one.s.01",
+    "label": "American Staffordshire Terrier",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "181": {
+    "id": "in.s.03",
+    "label": "Bedlington Terrier",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/in.s.03"
+  },
+  "182": {
+    "id": "one.s.01",
+    "label": "Border Terrier",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "183": {
+    "id": "u.s.01",
+    "label": "Kerry Blue Terrier",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "184": {
+    "id": "one.s.01",
+    "label": "Irish Terrier",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "185": {
+    "id": "one.s.01",
+    "label": "Norfolk Terrier",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "186": {
+    "id": "one.s.01",
+    "label": "Norwich Terrier",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "187": {
+    "id": "one.s.01",
+    "label": "Yorkshire Terrier",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "188": {
+    "id": "one.s.01",
+    "label": "Wire Fox Terrier",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "189": {
+    "id": "one.s.01",
+    "label": "Lakeland Terrier",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "190": {
+    "id": "one.s.01",
+    "label": "Sealyham Terrier",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "191": {
+    "id": "crimson.s.02",
+    "label": "Airedale Terrier",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/crimson.s.02"
+  },
+  "192": {
+    "id": "one.s.01",
+    "label": "Cairn Terrier",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "193": {
+    "id": "u.s.01",
+    "label": "Australian Terrier",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "194": {
+    "id": "in.s.03",
+    "label": "Dandie Dinmont Terrier",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/in.s.03"
+  },
+  "195": {
+    "id": "on.a.01",
+    "label": "Boston Terrier",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/on.a.01"
+  },
+  "196": {
+    "id": "u.s.01",
+    "label": "Miniature Schnauzer",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "197": {
+    "id": "u.s.01",
+    "label": "Giant Schnauzer",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "198": {
+    "id": "u.s.01",
+    "label": "Standard Schnauzer",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "199": {
+    "id": "one.s.01",
+    "label": "Scottish Terrier",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "200": {
+    "id": "tan.s.01",
+    "label": "Tibetan Terrier",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/tan.s.01"
+  },
+  "201": {
+    "id": "u.s.01",
+    "label": "Australian Silky Terrier",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "202": {
+    "id": "coated.s.02",
+    "label": "Soft-coated Wheaten Terrier",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/coated.s.02"
+  },
+  "203": {
+    "id": "one.s.01",
+    "label": "West Highland White Terrier",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "204": {
+    "id": "equally.r.01",
+    "label": "Lhasa Apso",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/equally.r.01"
+  },
+  "205": {
+    "id": "one.s.01",
+    "label": "Flat-Coated Retriever",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "206": {
+    "id": "u.s.01",
+    "label": "Curly-coated Retriever",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "207": {
+    "id": "previous.s.01",
+    "label": "Golden Retriever",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/previous.s.01"
+  },
+  "208": {
+    "id": "one.s.01",
+    "label": "Labrador Retriever",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "209": {
+    "id": "one.s.01",
+    "label": "Chesapeake Bay Retriever",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "210": {
+    "id": "hairy.a.01",
+    "label": "German Shorthaired Pointer",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/hairy.a.01"
+  },
+  "211": {
+    "id": "one.s.01",
+    "label": "Vizsla",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "212": {
+    "id": "one.s.01",
+    "label": "English Setter",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "213": {
+    "id": "one.s.01",
+    "label": "Irish Setter",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "214": {
+    "id": "on.a.01",
+    "label": "Gordon Setter",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/on.a.01"
+  },
+  "215": {
+    "id": "tan.s.01",
+    "label": "Brittany dog",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/tan.s.01"
+  },
+  "216": {
+    "id": "u.s.01",
+    "label": "Clumber Spaniel",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "217": {
+    "id": "in.s.03",
+    "label": "English Springer Spaniel",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/in.s.03"
+  },
+  "218": {
+    "id": "in.s.03",
+    "label": "Welsh Springer Spaniel",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/in.s.03"
+  },
+  "219": {
+    "id": "one.s.01",
+    "label": "Cocker Spaniel",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "220": {
+    "id": "u.s.01",
+    "label": "Sussex Spaniel",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "221": {
+    "id": "one.s.01",
+    "label": "Irish Water Spaniel",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "222": {
+    "id": "u.s.01",
+    "label": "Kuvasz",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "223": {
+    "id": "chipper.s.01",
+    "label": "Schipperke",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/chipper.s.01"
+  },
+  "224": {
+    "id": "fifty.s.01",
+    "label": "Groenendael dog",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/fifty.s.01"
+  },
+  "225": {
+    "id": "in.s.03",
+    "label": "Malinois",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/in.s.03"
+  },
+  "226": {
+    "id": "one.s.01",
+    "label": "Briard",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "227": {
+    "id": "u.s.01",
+    "label": "Australian Kelpie",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "228": {
+    "id": "on.a.01",
+    "label": "Komondor",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/on.a.01"
+  },
+  "229": {
+    "id": "old.s.07",
+    "label": "Old English Sheepdog",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/old.s.07"
+  },
+  "230": {
+    "id": "heated.s.01",
+    "label": "Shetland Sheepdog",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/heated.s.01"
+  },
+  "231": {
+    "id": "collie.n.01",
+    "label": "collie",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/collie.n.01"
+  },
+  "232": {
+    "id": "one.s.01",
+    "label": "Border Collie",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "233": {
+    "id": "u.s.01",
+    "label": "Bouvier des Flandres dog",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "234": {
+    "id": "rottweiler.n.01",
+    "label": "Rottweiler",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/rottweiler.n.01"
+  },
+  "235": {
+    "id": "hep.s.01",
+    "label": "German Shepherd Dog",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/hep.s.01"
+  },
+  "236": {
+    "id": "thousand.s.01",
+    "label": "Dobermann",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/thousand.s.01"
+  },
+  "237": {
+    "id": "u.s.01",
+    "label": "Miniature Pinscher",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "238": {
+    "id": "u.s.01",
+    "label": "Greater Swiss Mountain Dog",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "239": {
+    "id": "u.s.01",
+    "label": "Bernese Mountain Dog",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "240": {
+    "id": "u.s.01",
+    "label": "Appenzeller Sennenhund",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "241": {
+    "id": "u.s.01",
+    "label": "Entlebucher Sennenhund",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "242": {
+    "id": "boxer.n.03",
+    "label": "Boxer",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/boxer.n.03"
+  },
+  "243": {
+    "id": "u.s.01",
+    "label": "Bullmastiff",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "244": {
+    "id": "tan.s.01",
+    "label": "Tibetan Mastiff",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/tan.s.01"
+  },
+  "245": {
+    "id": "u.s.01",
+    "label": "French Bulldog",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "246": {
+    "id": "one.s.01",
+    "label": "Great Dane",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "247": {
+    "id": "five_hundred.s.01",
+    "label": "St. Bernard",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/five_hundred.s.01"
+  },
+  "248": {
+    "id": "eskimo_dog.n.01",
+    "label": "husky",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/eskimo_dog.n.01"
+  },
+  "249": {
+    "id": "dumb.s.04",
+    "label": "Alaskan Malamute",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/dumb.s.04"
+  },
+  "250": {
+    "id": "u.s.01",
+    "label": "Siberian Husky",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "251": {
+    "id": "dalmatian.n.01",
+    "label": "Dalmatian",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/dalmatian.n.01"
+  },
+  "252": {
+    "id": "in.s.03",
+    "label": "Affenpinscher",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/in.s.03"
+  },
+  "253": {
+    "id": "one.s.01",
+    "label": "Basenji",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "254": {
+    "id": "pug.n.01",
+    "label": "pug",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/pug.n.01"
+  },
+  "255": {
+    "id": "on.a.01",
+    "label": "Leonberger",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/on.a.01"
+  },
+  "256": {
+    "id": "u.s.01",
+    "label": "Newfoundland dog",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "257": {
+    "id": "nee.s.01",
+    "label": "Great Pyrenees dog",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/nee.s.01"
+  },
+  "258": {
+    "id": "samoyed.n.01",
+    "label": "Samoyed",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/samoyed.n.01"
+  },
+  "259": {
+    "id": "pomeranian.n.01",
+    "label": "Pomeranian",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/pomeranian.n.01"
+  },
+  "260": {
+    "id": "coke.n.03",
+    "label": "Chow Chow",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/coke.n.03"
+  },
+  "261": {
+    "id": "on.a.01",
+    "label": "Keeshond",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/on.a.01"
+  },
+  "262": {
+    "id": "u.s.01",
+    "label": "brussels griffon",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "263": {
+    "id": "broke.s.01",
+    "label": "Pembroke Welsh Corgi",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/broke.s.01"
+  },
+  "264": {
+    "id": "one.s.01",
+    "label": "Cardigan Welsh Corgi",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "265": {
+    "id": "fifty.s.01",
+    "label": "Toy Poodle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/fifty.s.01"
+  },
+  "266": {
+    "id": "u.s.01",
+    "label": "Miniature Poodle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "267": {
+    "id": "tan.s.01",
+    "label": "Standard Poodle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/tan.s.01"
+  },
+  "268": {
+    "id": "hairless.a.01",
+    "label": "Mexican hairless dog (xoloitzcuintli)",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/hairless.a.01"
+  },
+  "269": {
+    "id": "red_wolf.n.01",
+    "label": "grey wolf",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/red_wolf.n.01"
+  },
+  "270": {
+    "id": "u.s.01",
+    "label": "Alaskan tundra wolf",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "271": {
+    "id": "crimson.s.02",
+    "label": "red wolf or maned wolf",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/crimson.s.02"
+  },
+  "272": {
+    "id": "coyote.n.01",
+    "label": "coyote",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/coyote.n.01"
+  },
+  "273": {
+    "id": "dingo.n.01",
+    "label": "dingo",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/dingo.n.01"
+  },
+  "274": {
+    "id": "dhole.n.01",
+    "label": "dhole",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/dhole.n.01"
+  },
+  "275": {
+    "id": "angry.s.02",
+    "label": "African wild dog",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/angry.s.02"
+  },
+  "276": {
+    "id": "hyena.n.01",
+    "label": "hyena",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/hyena.n.01"
+  },
+  "277": {
+    "id": "black_fox.n.01",
+    "label": "red fox",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/black_fox.n.01"
+  },
+  "278": {
+    "id": "one.s.01",
+    "label": "kit fox",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "279": {
+    "id": "blue_fox.n.01",
+    "label": "Arctic fox",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/blue_fox.n.01"
+  },
+  "280": {
+    "id": "kit_fox.n.02",
+    "label": "grey fox",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/kit_fox.n.02"
+  },
+  "281": {
+    "id": "brindled.s.01",
+    "label": "tabby cat",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/brindled.s.01"
+  },
+  "282": {
+    "id": "one.s.01",
+    "label": "tiger cat",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "283": {
+    "id": "angora.n.04",
+    "label": "Persian cat",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/angora.n.04"
+  },
+  "284": {
+    "id": "blue_point_siamese.n.01",
+    "label": "Siamese cat",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/blue_point_siamese.n.01"
+  },
+  "285": {
+    "id": "u.s.01",
+    "label": "Egyptian Mau",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "286": {
+    "id": "cougar.n.01",
+    "label": "cougar",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/cougar.n.01"
+  },
+  "287": {
+    "id": "lynx.n.01",
+    "label": "lynx",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/lynx.n.01"
+  },
+  "288": {
+    "id": "leopard.n.01",
+    "label": "leopard",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/leopard.n.01"
+  },
+  "289": {
+    "id": "panthera.n.01",
+    "label": "snow leopard",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/panthera.n.01"
+  },
+  "290": {
+    "id": "jaguar.n.01",
+    "label": "jaguar",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/jaguar.n.01"
+  },
+  "291": {
+    "id": "lion.n.01",
+    "label": "lion",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/lion.n.01"
+  },
+  "292": {
+    "id": "tiger.n.01",
+    "label": "tiger",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/tiger.n.01"
+  },
+  "293": {
+    "id": "cheetah.n.01",
+    "label": "cheetah",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/cheetah.n.01"
+  },
+  "294": {
+    "id": "ursus.n.01",
+    "label": "brown bear",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/ursus.n.01"
+  },
+  "295": {
+    "id": "euarctos.n.01",
+    "label": "American black bear",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/euarctos.n.01"
+  },
+  "296": {
+    "id": "thalarctos.n.01",
+    "label": "polar bear",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/thalarctos.n.01"
+  },
+  "297": {
+    "id": "melursus.n.01",
+    "label": "sloth bear",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/melursus.n.01"
+  },
+  "298": {
+    "id": "mongoose.n.01",
+    "label": "mongoose",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/mongoose.n.01"
+  },
+  "299": {
+    "id": "meerkat.n.01",
+    "label": "meerkat",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/meerkat.n.01"
+  },
+  "300": {
+    "id": "cicindelidae.n.01",
+    "label": "tiger beetle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/cicindelidae.n.01"
+  },
+  "301": {
+    "id": "ladybug.n.01",
+    "label": "ladybug",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/ladybug.n.01"
+  },
+  "302": {
+    "id": "carabidae.n.01",
+    "label": "ground beetle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/carabidae.n.01"
+  },
+  "303": {
+    "id": "long.s.09",
+    "label": "longhorn beetle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/long.s.09"
+  },
+  "304": {
+    "id": "chrysomelidae.n.01",
+    "label": "leaf beetle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/chrysomelidae.n.01"
+  },
+  "305": {
+    "id": "scarabaeidae.n.01",
+    "label": "dung beetle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/scarabaeidae.n.01"
+  },
+  "306": {
+    "id": "in.s.03",
+    "label": "rhinoceros beetle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/in.s.03"
+  },
+  "307": {
+    "id": "weevil.n.01",
+    "label": "weevil",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/weevil.n.01"
+  },
+  "308": {
+    "id": "fly.n.01",
+    "label": "fly",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/fly.n.01"
+  },
+  "309": {
+    "id": "bee.n.01",
+    "label": "bee",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/bee.n.01"
+  },
+  "310": {
+    "id": "ant.n.01",
+    "label": "ant",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/ant.n.01"
+  },
+  "311": {
+    "id": "grasshopper.n.01",
+    "label": "grasshopper",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/grasshopper.n.01"
+  },
+  "312": {
+    "id": "in.s.03",
+    "label": "cricket insect",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/in.s.03"
+  },
+  "313": {
+    "id": "phasmida.n.01",
+    "label": "stick insect",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/phasmida.n.01"
+  },
+  "314": {
+    "id": "cockroach.n.01",
+    "label": "cockroach",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/cockroach.n.01"
+  },
+  "315": {
+    "id": "skeleton_shrimp.n.01",
+    "label": "praying mantis",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/skeleton_shrimp.n.01"
+  },
+  "316": {
+    "id": "cicada.n.01",
+    "label": "cicada",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/cicada.n.01"
+  },
+  "317": {
+    "id": "leafhopper.n.01",
+    "label": "leafhopper",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/leafhopper.n.01"
+  },
+  "318": {
+    "id": "lacewing.n.01",
+    "label": "lacewing",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/lacewing.n.01"
+  },
+  "319": {
+    "id": "dragonfly.n.01",
+    "label": "dragonfly",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/dragonfly.n.01"
+  },
+  "320": {
+    "id": "damselfly.n.01",
+    "label": "damselfly",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/damselfly.n.01"
+  },
+  "321": {
+    "id": "fly.s.01",
+    "label": "red admiral butterfly",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/fly.s.01"
+  },
+  "322": {
+    "id": "fly.s.01",
+    "label": "ringlet butterfly",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/fly.s.01"
+  },
+  "323": {
+    "id": "fly.s.01",
+    "label": "monarch butterfly",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/fly.s.01"
+  },
+  "324": {
+    "id": "fly.s.01",
+    "label": "small white butterfly",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/fly.s.01"
+  },
+  "325": {
+    "id": "fly.s.01",
+    "label": "sulphur butterfly",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/fly.s.01"
+  },
+  "326": {
+    "id": "fly.s.01",
+    "label": "gossamer-winged butterfly",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/fly.s.01"
+  },
+  "327": {
+    "id": "starfish.n.01",
+    "label": "starfish",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/starfish.n.01"
+  },
+  "328": {
+    "id": "test.n.06",
+    "label": "sea urchin",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/test.n.06"
+  },
+  "329": {
+    "id": "echinodermata.n.01",
+    "label": "sea cucumber",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/echinodermata.n.01"
+  },
+  "330": {
+    "id": "ixodes_dentatus.n.01",
+    "label": "cottontail rabbit",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/ixodes_dentatus.n.01"
+  },
+  "331": {
+    "id": "hare.n.01",
+    "label": "hare",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/hare.n.01"
+  },
+  "332": {
+    "id": "go.a.01",
+    "label": "Angora rabbit",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/go.a.01"
+  },
+  "333": {
+    "id": "hamster.n.01",
+    "label": "hamster",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/hamster.n.01"
+  },
+  "334": {
+    "id": "porcupine.n.01",
+    "label": "porcupine",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/porcupine.n.01"
+  },
+  "335": {
+    "id": "black_squirrel.n.01",
+    "label": "fox squirrel",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/black_squirrel.n.01"
+  },
+  "336": {
+    "id": "marmot.n.01",
+    "label": "marmot",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/marmot.n.01"
+  },
+  "337": {
+    "id": "beaver.n.01",
+    "label": "beaver",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/beaver.n.01"
+  },
+  "338": {
+    "id": "lymphocytic_choriomeningitis_virus.n.01",
+    "label": "guinea pig",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/lymphocytic_choriomeningitis_virus.n.01"
+  },
+  "339": {
+    "id": "sorrel.s.01",
+    "label": "common sorrel horse",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/sorrel.s.01"
+  },
+  "340": {
+    "id": "zebra.n.01",
+    "label": "zebra",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/zebra.n.01"
+  },
+  "341": {
+    "id": "hog.n.03",
+    "label": "pig",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/hog.n.03"
+  },
+  "342": {
+    "id": "pigsticking.n.01",
+    "label": "wild boar",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/pigsticking.n.01"
+  },
+  "343": {
+    "id": "warthog.n.01",
+    "label": "warthog",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/warthog.n.01"
+  },
+  "344": {
+    "id": "hippopotamus.n.01",
+    "label": "hippopotamus",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/hippopotamus.n.01"
+  },
+  "345": {
+    "id": "ox.n.01",
+    "label": "ox",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/ox.n.01"
+  },
+  "346": {
+    "id": "old_world_buffalo.n.01",
+    "label": "water buffalo",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/old_world_buffalo.n.01"
+  },
+  "347": {
+    "id": "bison.n.01",
+    "label": "bison",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/bison.n.01"
+  },
+  "348": {
+    "id": "u.s.01",
+    "label": "ram (adult male sheep)",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "349": {
+    "id": "big.s.13",
+    "label": "bighorn sheep",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/big.s.13"
+  },
+  "350": {
+    "id": "in.s.03",
+    "label": "Alpine ibex",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/in.s.03"
+  },
+  "351": {
+    "id": "hartebeest.n.01",
+    "label": "hartebeest",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/hartebeest.n.01"
+  },
+  "352": {
+    "id": "one.s.01",
+    "label": "impala (antelope)",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "353": {
+    "id": "gazelle.n.01",
+    "label": "gazelle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/gazelle.n.01"
+  },
+  "354": {
+    "id": "one.s.01",
+    "label": "arabian camel",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "355": {
+    "id": "llama.n.01",
+    "label": "llama",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/llama.n.01"
+  },
+  "356": {
+    "id": "weasel.n.01",
+    "label": "weasel",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/weasel.n.01"
+  },
+  "357": {
+    "id": "mink.n.01",
+    "label": "mink",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/mink.n.01"
+  },
+  "358": {
+    "id": "ferret.n.02",
+    "label": "European polecat",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/ferret.n.02"
+  },
+  "359": {
+    "id": "black.s.03",
+    "label": "black-footed ferret",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/black.s.03"
+  },
+  "360": {
+    "id": "otter.n.01",
+    "label": "otter",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/otter.n.01"
+  },
+  "361": {
+    "id": "rotter.n.01",
+    "label": "skunk",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/rotter.n.01"
+  },
+  "362": {
+    "id": "badger.n.02",
+    "label": "badger",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/badger.n.02"
+  },
+  "363": {
+    "id": "armadillo.n.01",
+    "label": "armadillo",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/armadillo.n.01"
+  },
+  "364": {
+    "id": "bradypus.n.01",
+    "label": "three-toed sloth",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/bradypus.n.01"
+  },
+  "365": {
+    "id": "orangutan.n.01",
+    "label": "orangutan",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/orangutan.n.01"
+  },
+  "366": {
+    "id": "gorilla.n.01",
+    "label": "gorilla",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/gorilla.n.01"
+  },
+  "367": {
+    "id": "chimpanzee.n.01",
+    "label": "chimpanzee",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/chimpanzee.n.01"
+  },
+  "368": {
+    "id": "gibbon.n.02",
+    "label": "gibbon",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/gibbon.n.02"
+  },
+  "369": {
+    "id": "siamang.n.01",
+    "label": "siamang",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/siamang.n.01"
+  },
+  "370": {
+    "id": "guenon.n.01",
+    "label": "guenon",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/guenon.n.01"
+  },
+  "371": {
+    "id": "pat.s.02",
+    "label": "patas monkey",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/pat.s.02"
+  },
+  "372": {
+    "id": "baboon.n.01",
+    "label": "baboon",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/baboon.n.01"
+  },
+  "373": {
+    "id": "macaque.n.01",
+    "label": "macaque",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/macaque.n.01"
+  },
+  "374": {
+    "id": "langur.n.01",
+    "label": "langur",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/langur.n.01"
+  },
+  "375": {
+    "id": "black.s.03",
+    "label": "black-and-white colobus",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/black.s.03"
+  },
+  "376": {
+    "id": "cercopithecidae.n.01",
+    "label": "proboscis monkey",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/cercopithecidae.n.01"
+  },
+  "377": {
+    "id": "marmoset.n.01",
+    "label": "marmoset",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/marmoset.n.01"
+  },
+  "378": {
+    "id": "white.a.02",
+    "label": "white-headed capuchin",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/white.a.02"
+  },
+  "379": {
+    "id": "platyrrhini.n.01",
+    "label": "howler monkey",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/platyrrhini.n.01"
+  },
+  "380": {
+    "id": "cardinal.s.01",
+    "label": "titi monkey",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/cardinal.s.01"
+  },
+  "381": {
+    "id": "off.s.05",
+    "label": "Geoffroy's spider monkey",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/off.s.05"
+  },
+  "382": {
+    "id": "u.s.01",
+    "label": "common squirrel monkey",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "383": {
+    "id": "u.s.01",
+    "label": "ring-tailed lemur",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "384": {
+    "id": "indri.n.01",
+    "label": "indri",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/indri.n.01"
+  },
+  "385": {
+    "id": "indian_elephant.n.01",
+    "label": "Asian elephant",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/indian_elephant.n.01"
+  },
+  "386": {
+    "id": "u.s.01",
+    "label": "African bush elephant",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "387": {
+    "id": "crimson.s.02",
+    "label": "red panda",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/crimson.s.02"
+  },
+  "388": {
+    "id": "lesser_panda.n.01",
+    "label": "giant panda",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/lesser_panda.n.01"
+  },
+  "389": {
+    "id": "one.s.01",
+    "label": "snoek fish",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "390": {
+    "id": "eel.n.01",
+    "label": "eel",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/eel.n.01"
+  },
+  "391": {
+    "id": "eloquent.s.01",
+    "label": "silver salmon",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/eloquent.s.01"
+  },
+  "392": {
+    "id": "u.s.01",
+    "label": "rock beauty fish",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "393": {
+    "id": "gloomy.s.02",
+    "label": "clownfish",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/gloomy.s.02"
+  },
+  "394": {
+    "id": "sturgeon.n.01",
+    "label": "sturgeon",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/sturgeon.n.01"
+  },
+  "395": {
+    "id": "one.s.01",
+    "label": "gar fish",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "396": {
+    "id": "lionfish.n.01",
+    "label": "lionfish",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/lionfish.n.01"
+  },
+  "397": {
+    "id": "blowfish.n.01",
+    "label": "pufferfish",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/blowfish.n.01"
+  },
+  "398": {
+    "id": "abacus.n.01",
+    "label": "abacus",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/abacus.n.01"
+  },
+  "399": {
+    "id": "abaya.n.01",
+    "label": "abaya",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/abaya.n.01"
+  },
+  "400": {
+    "id": "geneva_gown.n.01",
+    "label": "academic gown",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/geneva_gown.n.01"
+  },
+  "401": {
+    "id": "accordion.n.01",
+    "label": "accordion",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/accordion.n.01"
+  },
+  "402": {
+    "id": "u.s.01",
+    "label": "acoustic guitar",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "403": {
+    "id": "coral_sea.n.02",
+    "label": "aircraft carrier",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/coral_sea.n.02"
+  },
+  "404": {
+    "id": "airliner.n.01",
+    "label": "airliner",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/airliner.n.01"
+  },
+  "405": {
+    "id": "airship.n.01",
+    "label": "airship",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/airship.n.01"
+  },
+  "406": {
+    "id": "altar.n.01",
+    "label": "altar",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/altar.n.01"
+  },
+  "407": {
+    "id": "ambulance.n.01",
+    "label": "ambulance",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/ambulance.n.01"
+  },
+  "408": {
+    "id": "swamp_buggy.n.01",
+    "label": "amphibious vehicle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/swamp_buggy.n.01"
+  },
+  "409": {
+    "id": "anal.a.02",
+    "label": "analog clock",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/anal.a.02"
+  },
+  "410": {
+    "id": "apiary.n.01",
+    "label": "apiary",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/apiary.n.01"
+  },
+  "411": {
+    "id": "apron.n.01",
+    "label": "apron",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/apron.n.01"
+  },
+  "412": {
+    "id": "ragpicker.n.01",
+    "label": "trash can",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/ragpicker.n.01"
+  },
+  "413": {
+    "id": "u.s.01",
+    "label": "assault rifle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "414": {
+    "id": "backpack.n.01",
+    "label": "backpack",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/backpack.n.01"
+  },
+  "415": {
+    "id": "bakery.n.01",
+    "label": "bakery",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/bakery.n.01"
+  },
+  "416": {
+    "id": "fifty.s.01",
+    "label": "balance beam",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/fifty.s.01"
+  },
+  "417": {
+    "id": "balloon.n.01",
+    "label": "balloon",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/balloon.n.01"
+  },
+  "418": {
+    "id": "all.s.02",
+    "label": "ballpoint pen",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/all.s.02"
+  },
+  "419": {
+    "id": "one.s.01",
+    "label": "Band-Aid",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "420": {
+    "id": "banjo.n.01",
+    "label": "banjo",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/banjo.n.01"
+  },
+  "421": {
+    "id": "u.s.01",
+    "label": "baluster / handrail",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "422": {
+    "id": "barbell.n.01",
+    "label": "barbell",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/barbell.n.01"
+  },
+  "423": {
+    "id": "one.s.01",
+    "label": "barber chair",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "424": {
+    "id": "barbershop.n.01",
+    "label": "barbershop",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/barbershop.n.01"
+  },
+  "425": {
+    "id": "barn.n.01",
+    "label": "barn",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/barn.n.01"
+  },
+  "426": {
+    "id": "barometer.n.01",
+    "label": "barometer",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/barometer.n.01"
+  },
+  "427": {
+    "id": "barrel.n.01",
+    "label": "barrel",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/barrel.n.01"
+  },
+  "428": {
+    "id": "barrow.n.03",
+    "label": "wheelbarrow",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/barrow.n.03"
+  },
+  "429": {
+    "id": "baseball.n.01",
+    "label": "baseball",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/baseball.n.01"
+  },
+  "430": {
+    "id": "basketball.n.01",
+    "label": "basketball",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/basketball.n.01"
+  },
+  "431": {
+    "id": "bassinet.n.01",
+    "label": "bassinet",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/bassinet.n.01"
+  },
+  "432": {
+    "id": "bassoon.n.01",
+    "label": "bassoon",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/bassoon.n.01"
+  },
+  "433": {
+    "id": "in.s.03",
+    "label": "swimming cap",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/in.s.03"
+  },
+  "434": {
+    "id": "terry.n.02",
+    "label": "bath towel",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/terry.n.02"
+  },
+  "435": {
+    "id": "bathtub.n.01",
+    "label": "bathtub",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/bathtub.n.01"
+  },
+  "436": {
+    "id": "shooting_brake.n.01",
+    "label": "station wagon",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/shooting_brake.n.01"
+  },
+  "437": {
+    "id": "beacon.n.03",
+    "label": "lighthouse",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/beacon.n.03"
+  },
+  "438": {
+    "id": "beaker.n.01",
+    "label": "beaker",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/beaker.n.01"
+  },
+  "439": {
+    "id": "illuminated.s.01",
+    "label": "military hat (bearskin or shako)",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/illuminated.s.01"
+  },
+  "440": {
+    "id": "fifty.s.01",
+    "label": "beer bottle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/fifty.s.01"
+  },
+  "441": {
+    "id": "schooner.n.01",
+    "label": "beer glass",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/schooner.n.01"
+  },
+  "442": {
+    "id": "campanile.n.01",
+    "label": "bell tower",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/campanile.n.01"
+  },
+  "443": {
+    "id": "one.s.01",
+    "label": "baby bib",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "444": {
+    "id": "tan.s.01",
+    "label": "tandem bicycle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/tan.s.01"
+  },
+  "445": {
+    "id": "bikini.n.02",
+    "label": "bikini",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/bikini.n.02"
+  },
+  "446": {
+    "id": "in.s.03",
+    "label": "ring binder",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/in.s.03"
+  },
+  "447": {
+    "id": "binoculars.n.01",
+    "label": "binoculars",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/binoculars.n.01"
+  },
+  "448": {
+    "id": "birdhouse.n.01",
+    "label": "birdhouse",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/birdhouse.n.01"
+  },
+  "449": {
+    "id": "boathouse.n.01",
+    "label": "boathouse",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/boathouse.n.01"
+  },
+  "450": {
+    "id": "bobsled.n.01",
+    "label": "bobsleigh",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/bobsled.n.01"
+  },
+  "451": {
+    "id": "one.s.01",
+    "label": "bolo tie",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "452": {
+    "id": "final.s.02",
+    "label": "poke bonnet",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/final.s.02"
+  },
+  "453": {
+    "id": "bookcase.n.01",
+    "label": "bookcase",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/bookcase.n.01"
+  },
+  "454": {
+    "id": "bookshop.n.01",
+    "label": "bookstore",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/bookshop.n.01"
+  },
+  "455": {
+    "id": "lagerphone.n.01",
+    "label": "bottle cap",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/lagerphone.n.01"
+  },
+  "456": {
+    "id": "u.s.01",
+    "label": "hunting bow",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "457": {
+    "id": "black_tie.n.02",
+    "label": "bow tie",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/black_tie.n.02"
+  },
+  "458": {
+    "id": "u.s.01",
+    "label": "brass memorial plaque",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "459": {
+    "id": "brassiere.n.01",
+    "label": "bra",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/brassiere.n.01"
+  },
+  "460": {
+    "id": "breakwater.n.01",
+    "label": "breakwater",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/breakwater.n.01"
+  },
+  "461": {
+    "id": "breastplate.n.01",
+    "label": "breastplate",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/breastplate.n.01"
+  },
+  "462": {
+    "id": "broom.n.01",
+    "label": "broom",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/broom.n.01"
+  },
+  "463": {
+    "id": "bucket.n.01",
+    "label": "bucket",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/bucket.n.01"
+  },
+  "464": {
+    "id": "buckle.n.01",
+    "label": "buckle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/buckle.n.01"
+  },
+  "465": {
+    "id": "bulletproof.s.02",
+    "label": "bulletproof vest",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/bulletproof.s.02"
+  },
+  "466": {
+    "id": "high.s.05",
+    "label": "high-speed train",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/high.s.05"
+  },
+  "467": {
+    "id": "u.s.01",
+    "label": "butcher shop",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "468": {
+    "id": "cab.n.03",
+    "label": "taxicab",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/cab.n.03"
+  },
+  "469": {
+    "id": "caldron.n.01",
+    "label": "cauldron",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/caldron.n.01"
+  },
+  "470": {
+    "id": "candle.n.01",
+    "label": "candle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/candle.n.01"
+  },
+  "471": {
+    "id": "cannon.n.01",
+    "label": "cannon",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/cannon.n.01"
+  },
+  "472": {
+    "id": "canoe.n.01",
+    "label": "canoe",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/canoe.n.01"
+  },
+  "473": {
+    "id": "church_key.n.01",
+    "label": "can opener",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/church_key.n.01"
+  },
+  "474": {
+    "id": "cardigan.n.01",
+    "label": "cardigan",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/cardigan.n.01"
+  },
+  "475": {
+    "id": "outside_mirror.n.01",
+    "label": "car mirror",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/outside_mirror.n.01"
+  },
+  "476": {
+    "id": "carousel.n.01",
+    "label": "carousel",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/carousel.n.01"
+  },
+  "477": {
+    "id": "one.s.01",
+    "label": "tool kit",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "478": {
+    "id": "cardboard.s.01",
+    "label": "cardboard box / carton",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/cardboard.s.01"
+  },
+  "479": {
+    "id": "fifth_wheel.n.02",
+    "label": "car wheel",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/fifth_wheel.n.02"
+  },
+  "480": {
+    "id": "acquirer.n.03",
+    "label": "automated teller machine",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/acquirer.n.03"
+  },
+  "481": {
+    "id": "cassette.n.01",
+    "label": "cassette",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/cassette.n.01"
+  },
+  "482": {
+    "id": "hardened.s.05",
+    "label": "cassette player",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/hardened.s.05"
+  },
+  "483": {
+    "id": "palace.n.01",
+    "label": "castle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/palace.n.01"
+  },
+  "484": {
+    "id": "catamaran.n.01",
+    "label": "catamaran",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/catamaran.n.01"
+  },
+  "485": {
+    "id": "lay.s.02",
+    "label": "CD player",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/lay.s.02"
+  },
+  "486": {
+    "id": "cello.n.01",
+    "label": "cello",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/cello.n.01"
+  },
+  "487": {
+    "id": "fluid.s.05",
+    "label": "mobile phone",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/fluid.s.05"
+  },
+  "488": {
+    "id": "chain.n.01",
+    "label": "chain",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/chain.n.01"
+  },
+  "489": {
+    "id": "in.s.03",
+    "label": "chain-link fence",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/in.s.03"
+  },
+  "490": {
+    "id": "brigandine.n.01",
+    "label": "chain mail",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/brigandine.n.01"
+  },
+  "491": {
+    "id": "chain_saw.n.01",
+    "label": "chainsaw",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/chain_saw.n.01"
+  },
+  "492": {
+    "id": "sea_chest.n.01",
+    "label": "storage chest",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/sea_chest.n.01"
+  },
+  "493": {
+    "id": "chiffonier.n.01",
+    "label": "chiffonier",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/chiffonier.n.01"
+  },
+  "494": {
+    "id": "in.s.03",
+    "label": "bell or wind chime",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/in.s.03"
+  },
+  "495": {
+    "id": "in.s.03",
+    "label": "china cabinet",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/in.s.03"
+  },
+  "496": {
+    "id": "stocking_filler.n.01",
+    "label": "Christmas stocking",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/stocking_filler.n.01"
+  },
+  "497": {
+    "id": "church.n.01",
+    "label": "church",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/church.n.01"
+  },
+  "498": {
+    "id": "bioscope.n.01",
+    "label": "movie theater",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/bioscope.n.01"
+  },
+  "499": {
+    "id": "cleaver.n.01",
+    "label": "cleaver",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/cleaver.n.01"
+  },
+  "500": {
+    "id": "canyonlands_national_park.n.01",
+    "label": "cliff dwelling",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/canyonlands_national_park.n.01"
+  },
+  "501": {
+    "id": "cloak.n.01",
+    "label": "cloak",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/cloak.n.01"
+  },
+  "502": {
+    "id": "clogged.s.01",
+    "label": "clogs",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/clogged.s.01"
+  },
+  "503": {
+    "id": "one.s.01",
+    "label": "cocktail shaker",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "504": {
+    "id": "off.s.05",
+    "label": "coffee mug",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/off.s.05"
+  },
+  "505": {
+    "id": "off.s.05",
+    "label": "coffeemaker",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/off.s.05"
+  },
+  "506": {
+    "id": "one.s.01",
+    "label": "spiral or coil",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "507": {
+    "id": "combination.n.03",
+    "label": "combination lock",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/combination.n.03"
+  },
+  "508": {
+    "id": "control_key.n.01",
+    "label": "computer keyboard",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/control_key.n.01"
+  },
+  "509": {
+    "id": "tuck_shop.n.01",
+    "label": "candy store",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/tuck_shop.n.01"
+  },
+  "510": {
+    "id": "in.s.03",
+    "label": "container ship",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/in.s.03"
+  },
+  "511": {
+    "id": "convertible.n.01",
+    "label": "convertible",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/convertible.n.01"
+  },
+  "512": {
+    "id": "corkscrew.n.01",
+    "label": "corkscrew",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/corkscrew.n.01"
+  },
+  "513": {
+    "id": "cornet.n.01",
+    "label": "cornet",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/cornet.n.01"
+  },
+  "514": {
+    "id": "hundred.s.01",
+    "label": "cowboy boot",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/hundred.s.01"
+  },
+  "515": {
+    "id": "hundred.s.01",
+    "label": "cowboy hat",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/hundred.s.01"
+  },
+  "516": {
+    "id": "cradle.n.01",
+    "label": "cradle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/cradle.n.01"
+  },
+  "517": {
+    "id": "u.s.01",
+    "label": "construction crane",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "518": {
+    "id": "skid_lid.n.01",
+    "label": "crash helmet",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/skid_lid.n.01"
+  },
+  "519": {
+    "id": "crate.n.01",
+    "label": "crate",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/crate.n.01"
+  },
+  "520": {
+    "id": "in.s.03",
+    "label": "infant bed",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/in.s.03"
+  },
+  "521": {
+    "id": "hundred.s.01",
+    "label": "Crock Pot",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/hundred.s.01"
+  },
+  "522": {
+    "id": "u.s.01",
+    "label": "croquet ball",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "523": {
+    "id": "crutch.n.01",
+    "label": "crutch",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/crutch.n.01"
+  },
+  "524": {
+    "id": "cuirass.n.01",
+    "label": "cuirass",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/cuirass.n.01"
+  },
+  "525": {
+    "id": "dam.n.01",
+    "label": "dam",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/dam.n.01"
+  },
+  "526": {
+    "id": "desk.n.01",
+    "label": "desk",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/desk.n.01"
+  },
+  "527": {
+    "id": "u.s.01",
+    "label": "desktop computer",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "528": {
+    "id": "matchless.s.01",
+    "label": "rotary dial telephone",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/matchless.s.01"
+  },
+  "529": {
+    "id": "diaper.n.01",
+    "label": "diaper",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/diaper.n.01"
+  },
+  "530": {
+    "id": "digital.a.03",
+    "label": "digital clock",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/digital.a.03"
+  },
+  "531": {
+    "id": "digital.a.03",
+    "label": "digital watch",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/digital.a.03"
+  },
+  "532": {
+    "id": "mensal.a.01",
+    "label": "dining table",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/mensal.a.01"
+  },
+  "533": {
+    "id": "dishrag.n.01",
+    "label": "dishcloth",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/dishrag.n.01"
+  },
+  "534": {
+    "id": "dishwasher.n.01",
+    "label": "dishwasher",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/dishwasher.n.01"
+  },
+  "535": {
+    "id": "one.s.01",
+    "label": "disc brake",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "536": {
+    "id": "dock.n.01",
+    "label": "dock",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/dock.n.01"
+  },
+  "537": {
+    "id": "fifty.s.01",
+    "label": "dog sled",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/fifty.s.01"
+  },
+  "538": {
+    "id": "dome.n.01",
+    "label": "dome",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/dome.n.01"
+  },
+  "539": {
+    "id": "weakling.n.01",
+    "label": "doormat",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/weakling.n.01"
+  },
+  "540": {
+    "id": "drilling_platform.n.01",
+    "label": "drilling rig",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/drilling_platform.n.01"
+  },
+  "541": {
+    "id": "drum.n.01",
+    "label": "drum",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/drum.n.01"
+  },
+  "542": {
+    "id": "drumstick.n.01",
+    "label": "drumstick",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/drumstick.n.01"
+  },
+  "543": {
+    "id": "dumbbell.n.01",
+    "label": "dumbbell",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/dumbbell.n.01"
+  },
+  "544": {
+    "id": "u.s.01",
+    "label": "Dutch oven",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "545": {
+    "id": "electric.s.03",
+    "label": "electric fan",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/electric.s.03"
+  },
+  "546": {
+    "id": "hendrix.n.01",
+    "label": "electric guitar",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/hendrix.n.01"
+  },
+  "547": {
+    "id": "third_rail.n.01",
+    "label": "electric locomotive",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/third_rail.n.01"
+  },
+  "548": {
+    "id": "center.s.01",
+    "label": "entertainment center",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/center.s.01"
+  },
+  "549": {
+    "id": "envelope.n.01",
+    "label": "envelope",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/envelope.n.01"
+  },
+  "550": {
+    "id": "in.s.03",
+    "label": "espresso machine",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/in.s.03"
+  },
+  "551": {
+    "id": "hundred.s.01",
+    "label": "face powder",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/hundred.s.01"
+  },
+  "552": {
+    "id": "feat.n.01",
+    "label": "feather boa",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/feat.n.01"
+  },
+  "553": {
+    "id": "file_folder.n.01",
+    "label": "filing cabinet",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/file_folder.n.01"
+  },
+  "554": {
+    "id": "fireboat.n.01",
+    "label": "fireboat",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/fireboat.n.01"
+  },
+  "555": {
+    "id": "aerial_ladder.n.01",
+    "label": "fire truck",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/aerial_ladder.n.01"
+  },
+  "556": {
+    "id": "one.s.01",
+    "label": "fire screen",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "557": {
+    "id": "range_pole.n.01",
+    "label": "flagpole",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/range_pole.n.01"
+  },
+  "558": {
+    "id": "flute.n.01",
+    "label": "flute",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/flute.n.01"
+  },
+  "559": {
+    "id": "camp_chair.n.01",
+    "label": "folding chair",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/camp_chair.n.01"
+  },
+  "560": {
+    "id": "face_guard.n.01",
+    "label": "football helmet",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/face_guard.n.01"
+  },
+  "561": {
+    "id": "forklift.n.01",
+    "label": "forklift",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/forklift.n.01"
+  },
+  "562": {
+    "id": "fountain.n.01",
+    "label": "fountain",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/fountain.n.01"
+  },
+  "563": {
+    "id": "penlight.n.01",
+    "label": "fountain pen",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/penlight.n.01"
+  },
+  "564": {
+    "id": "tester.n.02",
+    "label": "four-poster bed",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/tester.n.02"
+  },
+  "565": {
+    "id": "demurrage.n.02",
+    "label": "freight car",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/demurrage.n.02"
+  },
+  "566": {
+    "id": "hornist.n.01",
+    "label": "French horn",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/hornist.n.01"
+  },
+  "567": {
+    "id": "electric_frying_pan.n.01",
+    "label": "frying pan",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/electric_frying_pan.n.01"
+  },
+  "568": {
+    "id": "mink.n.02",
+    "label": "fur coat",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/mink.n.02"
+  },
+  "569": {
+    "id": "u.s.01",
+    "label": "garbage truck",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "570": {
+    "id": "one.s.01",
+    "label": "gas mask or respirator",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "571": {
+    "id": "u.s.01",
+    "label": "gas pump",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "572": {
+    "id": "goblet.n.01",
+    "label": "goblet",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/goblet.n.01"
+  },
+  "573": {
+    "id": "go-kart.n.01",
+    "label": "go-kart",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/go-kart.n.01"
+  },
+  "574": {
+    "id": "miniature_golf.n.01",
+    "label": "golf ball",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/miniature_golf.n.01"
+  },
+  "575": {
+    "id": "go.a.01",
+    "label": "golf cart",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/go.a.01"
+  },
+  "576": {
+    "id": "gondola_car.n.01",
+    "label": "gondola",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/gondola_car.n.01"
+  },
+  "577": {
+    "id": "gong.n.01",
+    "label": "gong",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/gong.n.01"
+  },
+  "578": {
+    "id": "gown.n.01",
+    "label": "gown",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/gown.n.01"
+  },
+  "579": {
+    "id": "baby_grand.n.01",
+    "label": "grand piano",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/baby_grand.n.01"
+  },
+  "580": {
+    "id": "greenhouse.n.01",
+    "label": "greenhouse",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/greenhouse.n.01"
+  },
+  "581": {
+    "id": "ill.s.05",
+    "label": "radiator grille",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/ill.s.05"
+  },
+  "582": {
+    "id": "greengrocery.n.02",
+    "label": "grocery store",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/greengrocery.n.02"
+  },
+  "583": {
+    "id": "closure_by_compartment.n.01",
+    "label": "guillotine",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/closure_by_compartment.n.01"
+  },
+  "584": {
+    "id": "one.s.01",
+    "label": "hair clip",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "585": {
+    "id": "one.s.01",
+    "label": "hair spray",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "586": {
+    "id": "half-track.s.01",
+    "label": "half-track",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/half-track.s.01"
+  },
+  "587": {
+    "id": "hammer.n.01",
+    "label": "hammer",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/hammer.n.01"
+  },
+  "588": {
+    "id": "shackle.n.01",
+    "label": "hamper",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/shackle.n.01"
+  },
+  "589": {
+    "id": "blow-dry.v.01",
+    "label": "hair dryer",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/blow-dry.v.01"
+  },
+  "590": {
+    "id": "personal_digital_assistant.n.01",
+    "label": "hand-held computer",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/personal_digital_assistant.n.01"
+  },
+  "591": {
+    "id": "handkerchief.n.01",
+    "label": "handkerchief",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/handkerchief.n.01"
+  },
+  "592": {
+    "id": "disk_controller.n.01",
+    "label": "hard disk drive",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/disk_controller.n.01"
+  },
+  "593": {
+    "id": "harmonica.n.01",
+    "label": "harmonica",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/harmonica.n.01"
+  },
+  "594": {
+    "id": "harp.n.01",
+    "label": "harp",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/harp.n.01"
+  },
+  "595": {
+    "id": "in.s.03",
+    "label": "combine harvester",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/in.s.03"
+  },
+  "596": {
+    "id": "tomahawk.n.01",
+    "label": "hatchet",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/tomahawk.n.01"
+  },
+  "597": {
+    "id": "holster.n.01",
+    "label": "holster",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/holster.n.01"
+  },
+  "598": {
+    "id": "home.s.03",
+    "label": "home theater",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/home.s.03"
+  },
+  "599": {
+    "id": "honeycomb.n.01",
+    "label": "honeycomb",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/honeycomb.n.01"
+  },
+  "600": {
+    "id": "hook.n.01",
+    "label": "hook",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/hook.n.01"
+  },
+  "601": {
+    "id": "one.s.01",
+    "label": "hoop skirt",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "602": {
+    "id": "acrobatic.s.01",
+    "label": "gymnastic horizontal bar",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/acrobatic.s.01"
+  },
+  "603": {
+    "id": "limber.n.01",
+    "label": "horse-drawn vehicle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/limber.n.01"
+  },
+  "604": {
+    "id": "hourglass.n.01",
+    "label": "hourglass",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/hourglass.n.01"
+  },
+  "605": {
+    "id": "ipod.n.01",
+    "label": "iPod",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/ipod.n.01"
+  },
+  "606": {
+    "id": "antipathetic.s.01",
+    "label": "clothes iron",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/antipathetic.s.01"
+  },
+  "607": {
+    "id": "u.s.01",
+    "label": "carved pumpkin",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "608": {
+    "id": "levi's.n.01",
+    "label": "jeans",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/levi's.n.01"
+  },
+  "609": {
+    "id": "jeep.n.01",
+    "label": "jeep",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/jeep.n.01"
+  },
+  "610": {
+    "id": "jersey.n.03",
+    "label": "T-shirt",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/jersey.n.03"
+  },
+  "611": {
+    "id": "u.s.01",
+    "label": "jigsaw puzzle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "612": {
+    "id": "jinrikisha.n.01",
+    "label": "rickshaw",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/jinrikisha.n.01"
+  },
+  "613": {
+    "id": "stick.n.03",
+    "label": "joystick",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/stick.n.03"
+  },
+  "614": {
+    "id": "kimono.n.01",
+    "label": "kimono",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/kimono.n.01"
+  },
+  "615": {
+    "id": "nee.s.01",
+    "label": "knee pad",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/nee.s.01"
+  },
+  "616": {
+    "id": "knot.n.01",
+    "label": "knot",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/knot.n.01"
+  },
+  "617": {
+    "id": "fifty.s.01",
+    "label": "lab coat",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/fifty.s.01"
+  },
+  "618": {
+    "id": "ladle.n.01",
+    "label": "ladle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/ladle.n.01"
+  },
+  "619": {
+    "id": "lampshade.n.01",
+    "label": "lampshade",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/lampshade.n.01"
+  },
+  "620": {
+    "id": "flat_panel_display.n.01",
+    "label": "laptop computer",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/flat_panel_display.n.01"
+  },
+  "621": {
+    "id": "hand_mower.n.01",
+    "label": "lawn mower",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/hand_mower.n.01"
+  },
+  "622": {
+    "id": "extracapsular_surgery.n.01",
+    "label": "lens cap",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/extracapsular_surgery.n.01"
+  },
+  "623": {
+    "id": "open.s.21",
+    "label": "letter opener",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/open.s.21"
+  },
+  "624": {
+    "id": "library.n.01",
+    "label": "library",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/library.n.01"
+  },
+  "625": {
+    "id": "lifeboat.n.01",
+    "label": "lifeboat",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/lifeboat.n.01"
+  },
+  "626": {
+    "id": "igniter.n.01",
+    "label": "lighter",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/igniter.n.01"
+  },
+  "627": {
+    "id": "limousine.n.01",
+    "label": "limousine",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/limousine.n.01"
+  },
+  "628": {
+    "id": "deck_tennis.n.01",
+    "label": "ocean liner",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/deck_tennis.n.01"
+  },
+  "629": {
+    "id": "lipstick.n.01",
+    "label": "lipstick",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/lipstick.n.01"
+  },
+  "630": {
+    "id": "on.a.01",
+    "label": "slip-on shoe",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/on.a.01"
+  },
+  "631": {
+    "id": "lotion.n.01",
+    "label": "lotion",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/lotion.n.01"
+  },
+  "632": {
+    "id": "u.s.01",
+    "label": "music speaker",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "633": {
+    "id": "astir.s.01",
+    "label": "loupe magnifying glass",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/astir.s.01"
+  },
+  "634": {
+    "id": "sawmill.n.01",
+    "label": "sawmill",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/sawmill.n.01"
+  },
+  "635": {
+    "id": "magnetic_needle.n.01",
+    "label": "magnetic compass",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/magnetic_needle.n.01"
+  },
+  "636": {
+    "id": "thousand.s.01",
+    "label": "messenger bag",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/thousand.s.01"
+  },
+  "637": {
+    "id": "mailbox.n.01",
+    "label": "mailbox",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/mailbox.n.01"
+  },
+  "638": {
+    "id": "tights.n.01",
+    "label": "tights",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/tights.n.01"
+  },
+  "639": {
+    "id": "maillot.n.01",
+    "label": "one-piece bathing suit",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/maillot.n.01"
+  },
+  "640": {
+    "id": "complete.s.05",
+    "label": "manhole cover",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/complete.s.05"
+  },
+  "641": {
+    "id": "maraca.n.01",
+    "label": "maraca",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/maraca.n.01"
+  },
+  "642": {
+    "id": "marimba.n.01",
+    "label": "marimba",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/marimba.n.01"
+  },
+  "643": {
+    "id": "mask.n.01",
+    "label": "mask",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/mask.n.01"
+  },
+  "644": {
+    "id": "matchstick.n.01",
+    "label": "matchstick",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/matchstick.n.01"
+  },
+  "645": {
+    "id": "maypole.n.01",
+    "label": "maypole",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/maypole.n.01"
+  },
+  "646": {
+    "id": "maze.n.01",
+    "label": "maze",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/maze.n.01"
+  },
+  "647": {
+    "id": "astir.s.01",
+    "label": "measuring cup",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/astir.s.01"
+  },
+  "648": {
+    "id": "in.s.03",
+    "label": "medicine cabinet",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/in.s.03"
+  },
+  "649": {
+    "id": "megalith.n.01",
+    "label": "megalith",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/megalith.n.01"
+  },
+  "650": {
+    "id": "microphone.n.01",
+    "label": "microphone",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/microphone.n.01"
+  },
+  "651": {
+    "id": "microwave.n.01",
+    "label": "microwave oven",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/microwave.n.01"
+  },
+  "652": {
+    "id": "battle_dress.n.01",
+    "label": "military uniform",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/battle_dress.n.01"
+  },
+  "653": {
+    "id": "one.s.01",
+    "label": "milk can",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "654": {
+    "id": "minibus.n.01",
+    "label": "minibus",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/minibus.n.01"
+  },
+  "655": {
+    "id": "miniskirt.n.01",
+    "label": "miniskirt",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/miniskirt.n.01"
+  },
+  "656": {
+    "id": "minivan.n.01",
+    "label": "minivan",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/minivan.n.01"
+  },
+  "657": {
+    "id": "missile.n.01",
+    "label": "missile",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/missile.n.01"
+  },
+  "658": {
+    "id": "mitten.n.01",
+    "label": "mitten",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/mitten.n.01"
+  },
+  "659": {
+    "id": "in.s.03",
+    "label": "mixing bowl",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/in.s.03"
+  },
+  "660": {
+    "id": "fluid.s.05",
+    "label": "mobile home",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/fluid.s.05"
+  },
+  "661": {
+    "id": "mod.s.01",
+    "label": "ford model t",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/mod.s.01"
+  },
+  "662": {
+    "id": "modem.n.01",
+    "label": "modem",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/modem.n.01"
+  },
+  "663": {
+    "id": "monastery.n.01",
+    "label": "monastery",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/monastery.n.01"
+  },
+  "664": {
+    "id": "proctor.n.01",
+    "label": "monitor",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/proctor.n.01"
+  },
+  "665": {
+    "id": "moped.n.01",
+    "label": "moped",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/moped.n.01"
+  },
+  "666": {
+    "id": "fifty.s.01",
+    "label": "mortar and pestle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/fifty.s.01"
+  },
+  "667": {
+    "id": "u.s.01",
+    "label": "graduation cap",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "668": {
+    "id": "mosque.n.01",
+    "label": "mosque",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/mosque.n.01"
+  },
+  "669": {
+    "id": "u.s.01",
+    "label": "mosquito net",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "670": {
+    "id": "vespa.n.01",
+    "label": "vespa",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/vespa.n.01"
+  },
+  "671": {
+    "id": "u.s.01",
+    "label": "mountain bike",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "672": {
+    "id": "tent.n.01",
+    "label": "tent",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/tent.n.01"
+  },
+  "673": {
+    "id": "click.n.04",
+    "label": "computer mouse",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/click.n.04"
+  },
+  "674": {
+    "id": "mousetrap.n.01",
+    "label": "mousetrap",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/mousetrap.n.01"
+  },
+  "675": {
+    "id": "pantechnicon.n.01",
+    "label": "moving van",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/pantechnicon.n.01"
+  },
+  "676": {
+    "id": "gun_muzzle.n.01",
+    "label": "muzzle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/gun_muzzle.n.01"
+  },
+  "677": {
+    "id": "metallic.a.01",
+    "label": "metal nail",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/metallic.a.01"
+  },
+  "678": {
+    "id": "hundred.s.01",
+    "label": "neck brace",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/hundred.s.01"
+  },
+  "679": {
+    "id": "necklace.n.01",
+    "label": "necklace",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/necklace.n.01"
+  },
+  "680": {
+    "id": "one.s.01",
+    "label": "baby pacifier",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "681": {
+    "id": "u.s.01",
+    "label": "notebook computer",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "682": {
+    "id": "obelisk.n.01",
+    "label": "obelisk",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/obelisk.n.01"
+  },
+  "683": {
+    "id": "oboe.n.01",
+    "label": "oboe",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/oboe.n.01"
+  },
+  "684": {
+    "id": "ocarina.n.01",
+    "label": "ocarina",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/ocarina.n.01"
+  },
+  "685": {
+    "id": "odometer.n.01",
+    "label": "odometer",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/odometer.n.01"
+  },
+  "686": {
+    "id": "one.s.01",
+    "label": "oil filter",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "687": {
+    "id": "diapason.n.01",
+    "label": "pipe organ",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/diapason.n.01"
+  },
+  "688": {
+    "id": "oscilloscope.n.01",
+    "label": "oscilloscope",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/oscilloscope.n.01"
+  },
+  "689": {
+    "id": "overskirt.n.01",
+    "label": "overskirt",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/overskirt.n.01"
+  },
+  "690": {
+    "id": "u.s.01",
+    "label": "bullock cart",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "691": {
+    "id": "ten.s.01",
+    "label": "oxygen mask",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/ten.s.01"
+  },
+  "692": {
+    "id": "u.s.01",
+    "label": "product packet / packaging",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "693": {
+    "id": "paddle.n.01",
+    "label": "paddle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/paddle.n.01"
+  },
+  "694": {
+    "id": "paddle.n.02",
+    "label": "paddle wheel",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/paddle.n.02"
+  },
+  "695": {
+    "id": "padlock.n.01",
+    "label": "padlock",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/padlock.n.01"
+  },
+  "696": {
+    "id": "paintbrush.n.01",
+    "label": "paintbrush",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/paintbrush.n.01"
+  },
+  "697": {
+    "id": "lounging_pajama.n.01",
+    "label": "pajamas",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/lounging_pajama.n.01"
+  },
+  "698": {
+    "id": "palace.n.01",
+    "label": "palace",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/palace.n.01"
+  },
+  "699": {
+    "id": "u.s.01",
+    "label": "pan flute",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "700": {
+    "id": "fifty.s.01",
+    "label": "paper towel",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/fifty.s.01"
+  },
+  "701": {
+    "id": "parachute.n.01",
+    "label": "parachute",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/parachute.n.01"
+  },
+  "702": {
+    "id": "dip.n.09",
+    "label": "parallel bars",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/dip.n.09"
+  },
+  "703": {
+    "id": "hundred.s.01",
+    "label": "park bench",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/hundred.s.01"
+  },
+  "704": {
+    "id": "in.s.03",
+    "label": "parking meter",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/in.s.03"
+  },
+  "705": {
+    "id": "club_car.n.01",
+    "label": "railroad car",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/club_car.n.01"
+  },
+  "706": {
+    "id": "patio.n.01",
+    "label": "patio",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/patio.n.01"
+  },
+  "707": {
+    "id": "matchless.s.01",
+    "label": "payphone",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/matchless.s.01"
+  },
+  "708": {
+    "id": "base.n.08",
+    "label": "pedestal",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/base.n.08"
+  },
+  "709": {
+    "id": "one.s.01",
+    "label": "pencil case",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "710": {
+    "id": "astute.s.01",
+    "label": "pencil sharpener",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/astute.s.01"
+  },
+  "711": {
+    "id": "aroma.n.02",
+    "label": "perfume",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/aroma.n.02"
+  },
+  "712": {
+    "id": "one.s.01",
+    "label": "Petri dish",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "713": {
+    "id": "photocopier.n.01",
+    "label": "photocopier",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/photocopier.n.01"
+  },
+  "714": {
+    "id": "pick.n.05",
+    "label": "plectrum",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/pick.n.05"
+  },
+  "715": {
+    "id": "u.s.01",
+    "label": "Pickelhaube",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "716": {
+    "id": "one.s.01",
+    "label": "picket fence",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "717": {
+    "id": "technical.n.01",
+    "label": "pickup truck",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/technical.n.01"
+  },
+  "718": {
+    "id": "pier.n.01",
+    "label": "pier",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/pier.n.01"
+  },
+  "719": {
+    "id": "hoggish.s.01",
+    "label": "piggy bank",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/hoggish.s.01"
+  },
+  "720": {
+    "id": "ill.s.05",
+    "label": "pill bottle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/ill.s.05"
+  },
+  "721": {
+    "id": "pillow.n.01",
+    "label": "pillow",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/pillow.n.01"
+  },
+  "722": {
+    "id": "all.s.02",
+    "label": "ping-pong ball",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/all.s.02"
+  },
+  "723": {
+    "id": "pinwheel.n.01",
+    "label": "pinwheel",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/pinwheel.n.01"
+  },
+  "724": {
+    "id": "black_flag.n.01",
+    "label": "pirate ship",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/black_flag.n.01"
+  },
+  "725": {
+    "id": "in.s.03",
+    "label": "drink pitcher",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/in.s.03"
+  },
+  "726": {
+    "id": "flat.s.01",
+    "label": "block plane",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/flat.s.01"
+  },
+  "727": {
+    "id": "planetarium.n.01",
+    "label": "planetarium",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/planetarium.n.01"
+  },
+  "728": {
+    "id": "bin_liner.n.01",
+    "label": "plastic bag",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/bin_liner.n.01"
+  },
+  "729": {
+    "id": "late.s.04",
+    "label": "plate rack",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/late.s.04"
+  },
+  "730": {
+    "id": "far.a.01",
+    "label": "farm plow",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/far.a.01"
+  },
+  "731": {
+    "id": "speculator.n.02",
+    "label": "plunger",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/speculator.n.02"
+  },
+  "732": {
+    "id": "one.s.01",
+    "label": "Polaroid camera",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "733": {
+    "id": "pole.n.01",
+    "label": "pole",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/pole.n.01"
+  },
+  "734": {
+    "id": "one.s.01",
+    "label": "police van",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "735": {
+    "id": "poncho.n.01",
+    "label": "poncho",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/poncho.n.01"
+  },
+  "736": {
+    "id": "pool.n.09",
+    "label": "pool table",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/pool.n.09"
+  },
+  "737": {
+    "id": "fifty.s.01",
+    "label": "soda bottle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/fifty.s.01"
+  },
+  "738": {
+    "id": "fifty.s.01",
+    "label": "plant pot",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/fifty.s.01"
+  },
+  "739": {
+    "id": "potter.n.01",
+    "label": "potter's wheel",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/potter.n.01"
+  },
+  "740": {
+    "id": "electric_drill.n.01",
+    "label": "power drill",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/electric_drill.n.01"
+  },
+  "741": {
+    "id": "mihrab.n.01",
+    "label": "prayer rug",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/mihrab.n.01"
+  },
+  "742": {
+    "id": "printer.n.01",
+    "label": "printer",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/printer.n.01"
+  },
+  "743": {
+    "id": "prison.n.01",
+    "label": "prison",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/prison.n.01"
+  },
+  "744": {
+    "id": "missile.n.01",
+    "label": "missile",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/missile.n.01"
+  },
+  "745": {
+    "id": "projector.n.01",
+    "label": "projector",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/projector.n.01"
+  },
+  "746": {
+    "id": "u.s.01",
+    "label": "hockey puck",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "747": {
+    "id": "u.s.01",
+    "label": "punching bag",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "748": {
+    "id": "bag.n.04",
+    "label": "purse",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/bag.n.04"
+  },
+  "749": {
+    "id": "quill.n.01",
+    "label": "quill",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/quill.n.01"
+  },
+  "750": {
+    "id": "quilt.n.01",
+    "label": "quilt",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/quilt.n.01"
+  },
+  "751": {
+    "id": "finisher.n.05",
+    "label": "race car",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/finisher.n.05"
+  },
+  "752": {
+    "id": "racket.n.01",
+    "label": "racket",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/racket.n.01"
+  },
+  "753": {
+    "id": "radiator.n.01",
+    "label": "radiator",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/radiator.n.01"
+  },
+  "754": {
+    "id": "radio.n.01",
+    "label": "radio",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/radio.n.01"
+  },
+  "755": {
+    "id": "radio_observation.n.01",
+    "label": "radio telescope",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/radio_observation.n.01"
+  },
+  "756": {
+    "id": "in.s.03",
+    "label": "rain barrel",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/in.s.03"
+  },
+  "757": {
+    "id": "camper.n.02",
+    "label": "recreational vehicle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/camper.n.02"
+  },
+  "758": {
+    "id": "in.s.03",
+    "label": "fishing casting reel",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/in.s.03"
+  },
+  "759": {
+    "id": "antique.s.02",
+    "label": "reflex camera",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/antique.s.02"
+  },
+  "760": {
+    "id": "refrigerator.n.01",
+    "label": "refrigerator",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/refrigerator.n.01"
+  },
+  "761": {
+    "id": "car_bomb.n.01",
+    "label": "remote control",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/car_bomb.n.01"
+  },
+  "762": {
+    "id": "restaurant.n.01",
+    "label": "restaurant",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/restaurant.n.01"
+  },
+  "763": {
+    "id": "revolver.n.01",
+    "label": "revolver",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/revolver.n.01"
+  },
+  "764": {
+    "id": "rifle.n.01",
+    "label": "rifle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/rifle.n.01"
+  },
+  "765": {
+    "id": "boston_rocker.n.01",
+    "label": "rocking chair",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/boston_rocker.n.01"
+  },
+  "766": {
+    "id": "rotisserie.n.01",
+    "label": "rotisserie",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/rotisserie.n.01"
+  },
+  "767": {
+    "id": "eraser.n.01",
+    "label": "eraser",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/eraser.n.01"
+  },
+  "768": {
+    "id": "u.s.01",
+    "label": "rugby ball",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "769": {
+    "id": "u.s.01",
+    "label": "ruler measuring stick",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "770": {
+    "id": "gym_shoe.n.01",
+    "label": "sneaker",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/gym_shoe.n.01"
+  },
+  "771": {
+    "id": "safe.n.01",
+    "label": "safe",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/safe.n.01"
+  },
+  "772": {
+    "id": "safe.s.02",
+    "label": "safety pin",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/safe.s.02"
+  },
+  "773": {
+    "id": "salt.s.01",
+    "label": "salt shaker",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/salt.s.01"
+  },
+  "774": {
+    "id": "sandal.n.01",
+    "label": "sandal",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/sandal.n.01"
+  },
+  "775": {
+    "id": "sarong.n.01",
+    "label": "sarong",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/sarong.n.01"
+  },
+  "776": {
+    "id": "sax.n.02",
+    "label": "saxophone",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/sax.n.02"
+  },
+  "777": {
+    "id": "scabbard.n.01",
+    "label": "scabbard",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/scabbard.n.01"
+  },
+  "778": {
+    "id": "in.s.03",
+    "label": "weighing scale",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/in.s.03"
+  },
+  "779": {
+    "id": "u.s.01",
+    "label": "school bus",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "780": {
+    "id": "schooner.n.01",
+    "label": "schooner",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/schooner.n.01"
+  },
+  "781": {
+    "id": "scoreboard.n.01",
+    "label": "scoreboard",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/scoreboard.n.01"
+  },
+  "782": {
+    "id": "on.a.01",
+    "label": "CRT monitor",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/on.a.01"
+  },
+  "783": {
+    "id": "prison_guard.n.01",
+    "label": "screw",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/prison_guard.n.01"
+  },
+  "784": {
+    "id": "screwdriver.n.01",
+    "label": "screwdriver",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/screwdriver.n.01"
+  },
+  "785": {
+    "id": "webbing.n.02",
+    "label": "seat belt",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/webbing.n.02"
+  },
+  "786": {
+    "id": "machine_stitch.n.01",
+    "label": "sewing machine",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/machine_stitch.n.01"
+  },
+  "787": {
+    "id": "shield.n.01",
+    "label": "shield",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/shield.n.01"
+  },
+  "788": {
+    "id": "brake_shoe.n.01",
+    "label": "shoe store",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/brake_shoe.n.01"
+  },
+  "789": {
+    "id": "one.s.01",
+    "label": "shoji screen / room divider",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "790": {
+    "id": "in.s.03",
+    "label": "shopping basket",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/in.s.03"
+  },
+  "791": {
+    "id": "in.s.03",
+    "label": "shopping cart",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/in.s.03"
+  },
+  "792": {
+    "id": "shovel.n.01",
+    "label": "shovel",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/shovel.n.01"
+  },
+  "793": {
+    "id": "hundred.s.01",
+    "label": "shower cap",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/hundred.s.01"
+  },
+  "794": {
+    "id": "u.s.01",
+    "label": "shower curtain",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "795": {
+    "id": "ski.n.01",
+    "label": "ski",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/ski.n.01"
+  },
+  "796": {
+    "id": "one.s.01",
+    "label": "balaclava ski mask",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "797": {
+    "id": "in.s.03",
+    "label": "sleeping bag",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/in.s.03"
+  },
+  "798": {
+    "id": "u.s.01",
+    "label": "slide rule",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "799": {
+    "id": "barn_door.n.01",
+    "label": "sliding door",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/barn_door.n.01"
+  },
+  "800": {
+    "id": "coin_box.n.01",
+    "label": "slot machine",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/coin_box.n.01"
+  },
+  "801": {
+    "id": "snorkel.n.01",
+    "label": "snorkel",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/snorkel.n.01"
+  },
+  "802": {
+    "id": "snowmobile.n.01",
+    "label": "snowmobile",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/snowmobile.n.01"
+  },
+  "803": {
+    "id": "snowplow.n.01",
+    "label": "snowplow",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/snowplow.n.01"
+  },
+  "804": {
+    "id": "one.s.01",
+    "label": "soap dispenser",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "805": {
+    "id": "netball.n.01",
+    "label": "soccer ball",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/netball.n.01"
+  },
+  "806": {
+    "id": "sock.n.01",
+    "label": "sock",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/sock.n.01"
+  },
+  "807": {
+    "id": "collect.s.01",
+    "label": "solar thermal collector",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/collect.s.01"
+  },
+  "808": {
+    "id": "sombrero.n.02",
+    "label": "sombrero",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/sombrero.n.02"
+  },
+  "809": {
+    "id": "astir.s.01",
+    "label": "soup bowl",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/astir.s.01"
+  },
+  "810": {
+    "id": "cardinal.s.01",
+    "label": "keyboard space bar",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/cardinal.s.01"
+  },
+  "811": {
+    "id": "convector.n.01",
+    "label": "space heater",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/convector.n.01"
+  },
+  "812": {
+    "id": "u.s.01",
+    "label": "space shuttle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "813": {
+    "id": "spatula.n.01",
+    "label": "spatula",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/spatula.n.01"
+  },
+  "814": {
+    "id": "motorboat.n.01",
+    "label": "motorboat",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/motorboat.n.01"
+  },
+  "815": {
+    "id": "cobweb.n.03",
+    "label": "spider web",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/cobweb.n.03"
+  },
+  "816": {
+    "id": "spindle.n.01",
+    "label": "spindle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/spindle.n.01"
+  },
+  "817": {
+    "id": "port.s.01",
+    "label": "sports car",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/port.s.01"
+  },
+  "818": {
+    "id": "limelight.n.01",
+    "label": "spotlight",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/limelight.n.01"
+  },
+  "819": {
+    "id": "phase.n.01",
+    "label": "stage",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/phase.n.01"
+  },
+  "820": {
+    "id": "firebox.n.01",
+    "label": "steam locomotive",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/firebox.n.01"
+  },
+  "821": {
+    "id": "pugnacious.s.02",
+    "label": "through arch bridge",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/pugnacious.s.02"
+  },
+  "822": {
+    "id": "u.s.01",
+    "label": "steel drum",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "823": {
+    "id": "stethoscope.n.01",
+    "label": "stethoscope",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/stethoscope.n.01"
+  },
+  "824": {
+    "id": "scarf.n.01",
+    "label": "scarf",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/scarf.n.01"
+  },
+  "825": {
+    "id": "dry_walling.n.01",
+    "label": "stone wall",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/dry_walling.n.01"
+  },
+  "826": {
+    "id": "stopwatch.n.01",
+    "label": "stopwatch",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/stopwatch.n.01"
+  },
+  "827": {
+    "id": "stove.n.01",
+    "label": "stove",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/stove.n.01"
+  },
+  "828": {
+    "id": "strainer.n.01",
+    "label": "strainer",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/strainer.n.01"
+  },
+  "829": {
+    "id": "tramway.n.01",
+    "label": "tram",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/tramway.n.01"
+  },
+  "830": {
+    "id": "stretcher.n.01",
+    "label": "stretcher",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/stretcher.n.01"
+  },
+  "831": {
+    "id": "sofa.n.01",
+    "label": "couch",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/sofa.n.01"
+  },
+  "832": {
+    "id": "stupa.n.01",
+    "label": "stupa",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/stupa.n.01"
+  },
+  "833": {
+    "id": "submarine.n.01",
+    "label": "submarine",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/submarine.n.01"
+  },
+  "834": {
+    "id": "suit.n.01",
+    "label": "suit",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/suit.n.01"
+  },
+  "835": {
+    "id": "sundial.n.01",
+    "label": "sundial",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/sundial.n.01"
+  },
+  "836": {
+    "id": "sunglasses.n.01",
+    "label": "sunglasses",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/sunglasses.n.01"
+  },
+  "837": {
+    "id": "sunglasses.n.01",
+    "label": "sunglasses",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/sunglasses.n.01"
+  },
+  "838": {
+    "id": "sunscreen.n.01",
+    "label": "sunscreen",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/sunscreen.n.01"
+  },
+  "839": {
+    "id": "angostura_bridge.n.01",
+    "label": "suspension bridge",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/angostura_bridge.n.01"
+  },
+  "840": {
+    "id": "swab.n.02",
+    "label": "mop",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/swab.n.02"
+  },
+  "841": {
+    "id": "sweatshirt.n.01",
+    "label": "sweatshirt",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/sweatshirt.n.01"
+  },
+  "842": {
+    "id": "u.s.01",
+    "label": "swim trunks / shorts",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "843": {
+    "id": "swing.n.01",
+    "label": "swing",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/swing.n.01"
+  },
+  "844": {
+    "id": "push_button.n.01",
+    "label": "electrical switch",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/push_button.n.01"
+  },
+  "845": {
+    "id": "syringe.n.01",
+    "label": "syringe",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/syringe.n.01"
+  },
+  "846": {
+    "id": "able.a.01",
+    "label": "table lamp",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/able.a.01"
+  },
+  "847": {
+    "id": "tank.n.01",
+    "label": "tank",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/tank.n.01"
+  },
+  "848": {
+    "id": "lay.s.02",
+    "label": "tape player",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/lay.s.02"
+  },
+  "849": {
+    "id": "teapot.n.01",
+    "label": "teapot",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/teapot.n.01"
+  },
+  "850": {
+    "id": "five_hundred.s.01",
+    "label": "teddy bear",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/five_hundred.s.01"
+  },
+  "851": {
+    "id": "television.n.01",
+    "label": "television",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/television.n.01"
+  },
+  "852": {
+    "id": "tennis_stroke.n.01",
+    "label": "tennis ball",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/tennis_stroke.n.01"
+  },
+  "853": {
+    "id": "thatch.n.01",
+    "label": "thatched roof",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/thatch.n.01"
+  },
+  "854": {
+    "id": "front.a.01",
+    "label": "front curtain",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/front.a.01"
+  },
+  "855": {
+    "id": "thimble.n.01",
+    "label": "thimble",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/thimble.n.01"
+  },
+  "856": {
+    "id": "in.s.03",
+    "label": "threshing machine",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/in.s.03"
+  },
+  "857": {
+    "id": "throne.n.01",
+    "label": "throne",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/throne.n.01"
+  },
+  "858": {
+    "id": "antefix.n.01",
+    "label": "tile roof",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/antefix.n.01"
+  },
+  "859": {
+    "id": "toaster.n.01",
+    "label": "toaster",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/toaster.n.01"
+  },
+  "860": {
+    "id": "hundred.s.01",
+    "label": "tobacco shop",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/hundred.s.01"
+  },
+  "861": {
+    "id": "one.s.01",
+    "label": "toilet seat",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "862": {
+    "id": "torch.n.01",
+    "label": "torch",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/torch.n.01"
+  },
+  "863": {
+    "id": "fifty.s.01",
+    "label": "totem pole",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/fifty.s.01"
+  },
+  "864": {
+    "id": "u.s.01",
+    "label": "tow truck",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "865": {
+    "id": "toy_dog.n.01",
+    "label": "toy store",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/toy_dog.n.01"
+  },
+  "866": {
+    "id": "tractor.n.01",
+    "label": "tractor",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/tractor.n.01"
+  },
+  "867": {
+    "id": "u.s.01",
+    "label": "semi-trailer truck",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "868": {
+    "id": "tray.n.01",
+    "label": "tray",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/tray.n.01"
+  },
+  "869": {
+    "id": "hundred.s.01",
+    "label": "trench coat",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/hundred.s.01"
+  },
+  "870": {
+    "id": "tricycle.n.01",
+    "label": "tricycle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/tricycle.n.01"
+  },
+  "871": {
+    "id": "trimaran.n.01",
+    "label": "trimaran",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/trimaran.n.01"
+  },
+  "872": {
+    "id": "tripod.n.01",
+    "label": "tripod",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/tripod.n.01"
+  },
+  "873": {
+    "id": "u.s.01",
+    "label": "triumphal arch",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "874": {
+    "id": "trolleybus.n.01",
+    "label": "trolleybus",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/trolleybus.n.01"
+  },
+  "875": {
+    "id": "trombone.n.01",
+    "label": "trombone",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/trombone.n.01"
+  },
+  "876": {
+    "id": "hot.s.21",
+    "label": "hot tub",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/hot.s.21"
+  },
+  "877": {
+    "id": "turnstile.n.01",
+    "label": "turnstile",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/turnstile.n.01"
+  },
+  "878": {
+    "id": "computer_keyboard.n.01",
+    "label": "typewriter keyboard",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/computer_keyboard.n.01"
+  },
+  "879": {
+    "id": "umbrella.n.01",
+    "label": "umbrella",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/umbrella.n.01"
+  },
+  "880": {
+    "id": "unicycle.n.01",
+    "label": "unicycle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/unicycle.n.01"
+  },
+  "881": {
+    "id": "spinet.n.01",
+    "label": "upright piano",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/spinet.n.01"
+  },
+  "882": {
+    "id": "dust_bag.n.01",
+    "label": "vacuum cleaner",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/dust_bag.n.01"
+  },
+  "883": {
+    "id": "vase.n.01",
+    "label": "vase",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/vase.n.01"
+  },
+  "884": {
+    "id": "u.s.01",
+    "label": "vaulted or arched ceiling",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "885": {
+    "id": "velvet.s.02",
+    "label": "velvet fabric",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/velvet.s.02"
+  },
+  "886": {
+    "id": "automat.n.01",
+    "label": "vending machine",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/automat.n.01"
+  },
+  "887": {
+    "id": "vestment.n.01",
+    "label": "vestment",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/vestment.n.01"
+  },
+  "888": {
+    "id": "viaduct.n.01",
+    "label": "viaduct",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/viaduct.n.01"
+  },
+  "889": {
+    "id": "violin.n.01",
+    "label": "violin",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/violin.n.01"
+  },
+  "890": {
+    "id": "volleyball.n.01",
+    "label": "volleyball",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/volleyball.n.01"
+  },
+  "891": {
+    "id": "waffle.n.01",
+    "label": "waffle iron",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/waffle.n.01"
+  },
+  "892": {
+    "id": "all.s.02",
+    "label": "wall clock",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/all.s.02"
+  },
+  "893": {
+    "id": "wallet.n.01",
+    "label": "wallet",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/wallet.n.01"
+  },
+  "894": {
+    "id": "wardrobe.n.01",
+    "label": "wardrobe",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/wardrobe.n.01"
+  },
+  "895": {
+    "id": "flyover.n.02",
+    "label": "military aircraft",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/flyover.n.02"
+  },
+  "896": {
+    "id": "sink.n.01",
+    "label": "sink",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/sink.n.01"
+  },
+  "897": {
+    "id": "launderette.n.01",
+    "label": "washing machine",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/launderette.n.01"
+  },
+  "898": {
+    "id": "infrared_therapy.n.01",
+    "label": "water bottle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/infrared_therapy.n.01"
+  },
+  "899": {
+    "id": "u.s.01",
+    "label": "water jug",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "900": {
+    "id": "tow.n.01",
+    "label": "water tower",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/tow.n.01"
+  },
+  "901": {
+    "id": "u.s.01",
+    "label": "whiskey jug",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "902": {
+    "id": "whistle.n.01",
+    "label": "whistle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/whistle.n.01"
+  },
+  "903": {
+    "id": "one.s.01",
+    "label": "hair wig",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "904": {
+    "id": "in.s.03",
+    "label": "window screen",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/in.s.03"
+  },
+  "905": {
+    "id": "roller_blind.n.01",
+    "label": "window shade",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/roller_blind.n.01"
+  },
+  "906": {
+    "id": "in.s.03",
+    "label": "Windsor tie",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/in.s.03"
+  },
+  "907": {
+    "id": "bota.n.01",
+    "label": "wine bottle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/bota.n.01"
+  },
+  "908": {
+    "id": "flat.s.01",
+    "label": "airplane wing",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/flat.s.01"
+  },
+  "909": {
+    "id": "wok.n.01",
+    "label": "wok",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/wok.n.01"
+  },
+  "910": {
+    "id": "wooden.s.02",
+    "label": "wooden spoon",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/wooden.s.02"
+  },
+  "911": {
+    "id": "wool.n.01",
+    "label": "wool",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/wool.n.01"
+  },
+  "912": {
+    "id": "rail-splitter.n.01",
+    "label": "split-rail fence",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/rail-splitter.n.01"
+  },
+  "913": {
+    "id": "shipwreck.n.01",
+    "label": "shipwreck",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/shipwreck.n.01"
+  },
+  "914": {
+    "id": "sailboat.n.01",
+    "label": "sailboat",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/sailboat.n.01"
+  },
+  "915": {
+    "id": "yurt.n.01",
+    "label": "yurt",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/yurt.n.01"
+  },
+  "916": {
+    "id": "web_site.n.01",
+    "label": "website",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/web_site.n.01"
+  },
+  "917": {
+    "id": "comic_strip.n.01",
+    "label": "comic book",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/comic_strip.n.01"
+  },
+  "918": {
+    "id": "crossword_puzzle.n.01",
+    "label": "crossword",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/crossword_puzzle.n.01"
+  },
+  "919": {
+    "id": "gestural.s.01",
+    "label": "traffic or street sign",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/gestural.s.01"
+  },
+  "920": {
+    "id": "pelican_crossing.n.01",
+    "label": "traffic light",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/pelican_crossing.n.01"
+  },
+  "921": {
+    "id": "endorsement.n.01",
+    "label": "dust jacket",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/endorsement.n.01"
+  },
+  "922": {
+    "id": "menu.n.01",
+    "label": "menu",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/menu.n.01"
+  },
+  "923": {
+    "id": "home_plate.n.01",
+    "label": "plate",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/home_plate.n.01"
+  },
+  "924": {
+    "id": "guacamole.n.01",
+    "label": "guacamole",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/guacamole.n.01"
+  },
+  "925": {
+    "id": "consomme.n.01",
+    "label": "consomme",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/consomme.n.01"
+  },
+  "926": {
+    "id": "potholder.n.01",
+    "label": "hot pot",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/potholder.n.01"
+  },
+  "927": {
+    "id": "trifle.n.01",
+    "label": "trifle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/trifle.n.01"
+  },
+  "928": {
+    "id": "a_la_mode.r.01",
+    "label": "ice cream",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/a_la_mode.r.01"
+  },
+  "929": {
+    "id": "ice_lolly.n.01",
+    "label": "popsicle",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/ice_lolly.n.01"
+  },
+  "930": {
+    "id": "baguet.n.01",
+    "label": "baguette",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/baguet.n.01"
+  },
+  "931": {
+    "id": "bagel.n.01",
+    "label": "bagel",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/bagel.n.01"
+  },
+  "932": {
+    "id": "pretzel.n.01",
+    "label": "pretzel",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/pretzel.n.01"
+  },
+  "933": {
+    "id": "cheeseburger.n.01",
+    "label": "cheeseburger",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/cheeseburger.n.01"
+  },
+  "934": {
+    "id": "hot.s.21",
+    "label": "hot dog",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/hot.s.21"
+  },
+  "935": {
+    "id": "fish_cake.n.01",
+    "label": "mashed potatoes",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/fish_cake.n.01"
+  },
+  "936": {
+    "id": "cabbage.n.01",
+    "label": "cabbage",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/cabbage.n.01"
+  },
+  "937": {
+    "id": "broccoli.n.01",
+    "label": "broccoli",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/broccoli.n.01"
+  },
+  "938": {
+    "id": "cauliflower.n.01",
+    "label": "cauliflower",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/cauliflower.n.01"
+  },
+  "939": {
+    "id": "zucchini.n.01",
+    "label": "zucchini",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/zucchini.n.01"
+  },
+  "940": {
+    "id": "u.s.01",
+    "label": "spaghetti squash",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "941": {
+    "id": "u.s.01",
+    "label": "acorn squash",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "942": {
+    "id": "u.s.01",
+    "label": "butternut squash",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "943": {
+    "id": "cucumber.n.01",
+    "label": "cucumber",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/cucumber.n.01"
+  },
+  "944": {
+    "id": "artichoke.n.01",
+    "label": "artichoke",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/artichoke.n.01"
+  },
+  "945": {
+    "id": "fifty.s.01",
+    "label": "bell pepper",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/fifty.s.01"
+  },
+  "946": {
+    "id": "cardoon.n.01",
+    "label": "cardoon",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/cardoon.n.01"
+  },
+  "947": {
+    "id": "mushroom.n.01",
+    "label": "mushroom",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/mushroom.n.01"
+  },
+  "948": {
+    "id": "one.s.01",
+    "label": "Granny Smith apple",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "949": {
+    "id": "strawberry.n.01",
+    "label": "strawberry",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/strawberry.n.01"
+  },
+  "950": {
+    "id": "orange.n.01",
+    "label": "orange",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/orange.n.01"
+  },
+  "951": {
+    "id": "lemon.n.01",
+    "label": "lemon",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/lemon.n.01"
+  },
+  "952": {
+    "id": "figure.n.01",
+    "label": "fig",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/figure.n.01"
+  },
+  "953": {
+    "id": "pineapple.n.01",
+    "label": "pineapple",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/pineapple.n.01"
+  },
+  "954": {
+    "id": "banana.n.01",
+    "label": "banana",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/banana.n.01"
+  },
+  "955": {
+    "id": "jackfruit.n.01",
+    "label": "jackfruit",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/jackfruit.n.01"
+  },
+  "956": {
+    "id": "u.s.01",
+    "label": "cherimoya (custard apple)",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "957": {
+    "id": "pomegranate.n.01",
+    "label": "pomegranate",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/pomegranate.n.01"
+  },
+  "958": {
+    "id": "hay.n.01",
+    "label": "hay",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/hay.n.01"
+  },
+  "959": {
+    "id": "carbonara.n.01",
+    "label": "carbonara",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/carbonara.n.01"
+  },
+  "960": {
+    "id": "chocolate_milk.n.01",
+    "label": "chocolate syrup",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/chocolate_milk.n.01"
+  },
+  "961": {
+    "id": "dough.n.01",
+    "label": "dough",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/dough.n.01"
+  },
+  "962": {
+    "id": "meat_loaf.n.01",
+    "label": "meatloaf",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/meat_loaf.n.01"
+  },
+  "963": {
+    "id": "pizza.n.01",
+    "label": "pizza",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/pizza.n.01"
+  },
+  "964": {
+    "id": "one.s.01",
+    "label": "pot pie",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/one.s.01"
+  },
+  "965": {
+    "id": "burrito.n.01",
+    "label": "burrito",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/burrito.n.01"
+  },
+  "966": {
+    "id": "wine-red.s.01",
+    "label": "red wine",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/wine-red.s.01"
+  },
+  "967": {
+    "id": "espresso.n.01",
+    "label": "espresso",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/espresso.n.01"
+  },
+  "968": {
+    "id": "astir.s.01",
+    "label": "tea cup",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/astir.s.01"
+  },
+  "969": {
+    "id": "eggnog.n.01",
+    "label": "eggnog",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/eggnog.n.01"
+  },
+  "970": {
+    "id": "mountain.n.01",
+    "label": "mountain",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/mountain.n.01"
+  },
+  "971": {
+    "id": "bubble.n.01",
+    "label": "bubble",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/bubble.n.01"
+  },
+  "972": {
+    "id": "cliff.n.01",
+    "label": "cliff",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/cliff.n.01"
+  },
+  "973": {
+    "id": "cardinalfish.n.01",
+    "label": "coral reef",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/cardinalfish.n.01"
+  },
+  "974": {
+    "id": "geyser.n.01",
+    "label": "geyser",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/geyser.n.01"
+  },
+  "975": {
+    "id": "lakeside.n.01",
+    "label": "lakeshore",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/lakeside.n.01"
+  },
+  "976": {
+    "id": "promontory.n.01",
+    "label": "promontory",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/promontory.n.01"
+  },
+  "977": {
+    "id": "sandbar.n.01",
+    "label": "sandbar",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/sandbar.n.01"
+  },
+  "978": {
+    "id": "beach.n.01",
+    "label": "beach",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/beach.n.01"
+  },
+  "979": {
+    "id": "valley.n.01",
+    "label": "valley",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/valley.n.01"
+  },
+  "980": {
+    "id": "vent.n.03",
+    "label": "volcano",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/vent.n.03"
+  },
+  "981": {
+    "id": "baseball_card.n.01",
+    "label": "baseball player",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/baseball_card.n.01"
+  },
+  "982": {
+    "id": "groom.n.03",
+    "label": "bridegroom",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/groom.n.03"
+  },
+  "983": {
+    "id": "u.s.01",
+    "label": "scuba diver",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "984": {
+    "id": "rapeseed.n.01",
+    "label": "rapeseed",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/rapeseed.n.01"
+  },
+  "985": {
+    "id": "daisy.n.01",
+    "label": "daisy",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/daisy.n.01"
+  },
+  "986": {
+    "id": "chicken.s.01",
+    "label": "yellow lady's slipper",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/chicken.s.01"
+  },
+  "987": {
+    "id": "corn.n.01",
+    "label": "corn",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/corn.n.01"
+  },
+  "988": {
+    "id": "acorn.n.01",
+    "label": "acorn",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/acorn.n.01"
+  },
+  "989": {
+    "id": "rose.s.01",
+    "label": "rose hip",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/rose.s.01"
+  },
+  "990": {
+    "id": "u.s.01",
+    "label": "horse chestnut seed",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "991": {
+    "id": "club_fungus.n.01",
+    "label": "coral fungus",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/club_fungus.n.01"
+  },
+  "992": {
+    "id": "agaric.n.01",
+    "label": "agaric",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/agaric.n.01"
+  },
+  "993": {
+    "id": "gyromitra.n.01",
+    "label": "gyromitra",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/gyromitra.n.01"
+  },
+  "994": {
+    "id": "u.s.01",
+    "label": "stinkhorn mushroom",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "995": {
+    "id": "u.s.01",
+    "label": "earth star fungus",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "996": {
+    "id": "u.s.01",
+    "label": "hen of the woods mushroom",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/u.s.01"
+  },
+  "997": {
+    "id": "bolete.n.01",
+    "label": "bolete",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/bolete.n.01"
+  },
+  "998": {
+    "id": "hundred.s.01",
+    "label": "corn cob",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/hundred.s.01"
+  },
+  "999": {
+    "id": "toilet_roll.n.01",
+    "label": "toilet paper",
+    "uri": "http://wordnet-rdf.princeton.edu/wn30/toilet_roll.n.01"
+  }
+}
