@@ -424,7 +424,8 @@ def main():
     device = 'cuda'
     model, preprocess = clip.load(args.model, device=device)
     print(f"{len(openai_classnames)} classes, {len(openai_imagenet_template)} templates")
-
+    print("[INFO] Loaded model")
+    import pdb; pdb.set_trace()
     # 데이터셋 로딩
     dataset = getattr(datasets, args.dataset)(
         preprocess,
@@ -433,14 +434,15 @@ def main():
         num_workers=args.workers
     )
     dataloader = dataset.test_loader
-
+    print("[INFO] Loaded dataset")
     # zero-shot 텍스트 임베딩 가중치 로딩/계산
     zeroshot_weights = None
     checkpoint_path = os.path.join(args.model_location, f"{args.dataset}_{args.model.replace('/', '_').replace('-', '_')}_text_embs.pt")
     if os.path.exists(checkpoint_path):
-        print("Loading zero-shot classifier from:", checkpoint_path)
+        print("[INFO] Loading zero-shot classifier from:", checkpoint_path)
         zeroshot_weights = torch.load(checkpoint_path, map_location='cuda', weights_only=True)
     else:
+        print("[INFO] Creating zero-shot classifier")
         zs_weights = []
         with torch.no_grad():
             for classname in openai_classnames:
