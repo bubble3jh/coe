@@ -21,7 +21,8 @@ class ImageNet:
         self.classnames = get_classnames(classnames)
         self.distributed = distributed
 
-        self.populate_train()
+        # self.populate_train()
+        print("train set is not loaded")
         self.populate_test()
     
     def populate_train(self):
@@ -176,33 +177,3 @@ class ImageNet2pShuffled(ImageNet):
         idxs = idxs.astype('int')
         sampler = SubsetRandomSampler(np.where(idxs)[0])
         return sampler
-
-class DogImageNet(ImageNet):
-    def get_test_sampler(self):
-        idx_file = './datasets/imagenet_dog_idxs.npy'
-        assert os.path.exists(idx_file), "강아지 클래스 인덱스 파일이 없습니다. 먼저 생성하세요."
-
-        with open(idx_file, 'rb') as f:
-            dog_class_indices = np.load(f)
-
-        # 강아지 클래스의 샘플만 선택
-        idx_subsample_list = [range(idx * 50, (idx + 1) * 50) for idx in dog_class_indices]
-        idx_subsample_list = sorted([item for sublist in idx_subsample_list for item in sublist])
-
-        sampler = SubsetSampler(idx_subsample_list)
-        return sampler
-
-    def save_dog_indices(self):
-        """
-        강아지 클래스의 인덱스를 npy 파일로 저장합니다.
-        """
-        idx_file = "./datasets/imagenet_dog_idxs.npy"
-        if not os.path.exists(idx_file):
-            class_to_idx = {cls: idx for idx, cls in enumerate(get_classnames(self.classnames))}
-            dog_keywords = ["hound", "terrier", "retriever", "spaniel", "bulldog", "collie", "corgi", "poodle", "shepherd", "mastiff", "pinscher"]
-            dog_class_indices = [class_to_idx[cls] for cls in self.classnames if any(keyword in cls.lower() for keyword in dog_keywords)]
-
-            with open(idx_file, 'wb') as f:
-                np.save(f, np.array(dog_class_indices))
-        else:
-            pass

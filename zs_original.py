@@ -20,7 +20,7 @@ def parse_arguments():
     parser.add_argument(
         "--data-location",
         type=str,
-        default=os.path.expanduser('/mlainas/bubble3jh/data/'),
+        default=os.path.expanduser('/data1/bubble3jh/data/'),
         help="The root directory for the datasets.",
     )
     parser.add_argument(
@@ -159,8 +159,7 @@ zeroshot_weights = zeroshot_classifier(args, model, openai_classnames, openai_im
 with torch.no_grad():
     for batch in tqdm(dataloader, desc="Evaluating modified embeddings"):
         batch = maybe_dictionarize_batch(batch)
-        images, labels = batch['images'].cuda(), batch['labels'].cuda()
-
+        images, labels, paths = batch['images'].cuda(), batch['labels'].cuda(), batch['image_paths']
         image_features = model.encode_image(images)
         image_features /= image_features.norm(dim=-1, keepdim=True)
 

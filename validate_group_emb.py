@@ -394,7 +394,7 @@ def evaluate_group_emb_similarity(embeddings, all_labels, classnames, target_gro
 
 def parse_arguments():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--data-location", type=str, default=os.path.expanduser('/mlainas/bubble3jh/data/'))
+    parser.add_argument("--data-location", type=str, default=os.path.expanduser('/data1/bubble3jh/data/'))
     parser.add_argument("--model-location", type=str, default=os.path.expanduser('./checkpoints'))
     parser.add_argument("--batch-size", type=int, default=1024)
     parser.add_argument("--method", type=str, default='simple')
@@ -425,7 +425,6 @@ def main():
     model, preprocess = clip.load(args.model, device=device)
     print(f"{len(openai_classnames)} classes, {len(openai_imagenet_template)} templates")
     print("[INFO] Loaded model")
-    import pdb; pdb.set_trace()
     # 데이터셋 로딩
     dataset = getattr(datasets, args.dataset)(
         preprocess,
@@ -452,6 +451,7 @@ def main():
                 emb = emb / emb.norm(dim=-1, keepdim=True)
                 zs_weights.append(emb.mean(dim=0) / emb.mean(dim=0).norm())
             zeroshot_weights = torch.stack(zs_weights, dim=1).to(device)
+        os.makedirs('./checkpoints', exist_ok=True)
         torch.save(zeroshot_weights, checkpoint_path)
     
     # Image-wise top-k 인덱스 수집

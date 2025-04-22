@@ -20,7 +20,7 @@ def parse_arguments():
     parser.add_argument(
         "--data-location",
         type=str,
-        default=os.path.expanduser('/mlainas/bubble3jh/data/'),
+        default=os.path.expanduser('/data1/bubble3jh/data/'),
         help="The root directory for the datasets.",
     )
     parser.add_argument(
@@ -41,9 +41,6 @@ def parse_arguments():
         help="Weight to enhance features."
     )
     
-    parser.add_argument(
-        "--custom-template", action="store_true", default=False,
-    )
     parser.add_argument(
         "--dataset",  default="ImageNet",
         help=f"One of ['ImageNet', 'ImageNetV2', 'ImageNetR', 'ObjectNet', 'ImageNetA']"
@@ -84,6 +81,10 @@ def parse_arguments():
         type=float,
         default=1.0,
         help="Weight to remove features from negative classes (top-5 neighbors)."
+    )
+    
+    parser.add_argument(
+        "--custom_template", default='default', type=str,
     )
 
     parser.add_argument(
@@ -392,249 +393,7 @@ def get_text_embedding_by_idx(model, class_idx, classnames, device='cuda'):
 
 #     return modified_embs  # shape (N, k, D)
 
-def build_modified_text_embs(
-    class_embeddings,  # (C, D)
-    topk_indices,      # (N, k)
-    alpha=1.0,
-    beta=1.0,
-    method='simple',
-    device='cuda',
-    img_embs=None,
-    batch_size=2048   # 원하는 배치 크기를 지정
-):
-    """
-    Vectorized version of building modified text embeddings (batched version)
-    """
-    N, k = topk_indices.shape
-    C, D = class_embeddings.shape
 
-    modified_embs_list = []  # 각 배치 결과를 저장
-    cos_sim_list = []        # 각 배치별 cosine similarity를 저장 (평균값으로 나중에 합산)
-
-    # 전체 N개를 배치 단위로 순회합니다.
-    for start in tqdm(range(0, N, batch_size), desc="Processing batches"):
-        end = min(N, start + batch_size)
-        B = end - start  # 현재 배치 크기
-
-        # 현재 배치에 해당하는 topk_indices (shape: (B, k))
-        topk_indices_batch = topk_indices[start:end]
-        # 해당 배치의 top-k 텍스트 임베딩 추출 (shape: (B, k, D))
-        topk_embs = class_embeddings[topk_indices_batch.view(-1)].view(B, k, D).to(device)
-
-        if method == 'simple':
-            # 각 그룹별 평균 임베딩 계산 (B, 1, D)
-            sum_embs = torch.sum(topk_embs, dim=1, keepdim=True)
-            # 각 벡터를 제외한 나머지의 합 (B, k, D)
-            sum_others = sum_embs - topk_embs
-            mean_others = sum_others / (k - 1)
-            # 클래스 임베딩과 음성 평균의 평균을 구함
-            mean_common = (topk_embs + mean_others) / 2
-            # 수정된 임베딩 계산
-            modified_embs = topk_embs + alpha * mean_common - beta * mean_others
-
-        elif method == 'qr_proj':
-            # 배치 내에서만 동작하도록 tensor 크기를 B 단위로 변경
-            topk_expanded = topk_embs.unsqueeze(2).expand(B, k, k, D)
-            mask = (~torch.eye(k, dtype=torch.bool, device=device)).unsqueeze(0).expand(B, k, k)
-            others = topk_expanded[mask].view(B, k, k-1, D)
-            # (B, k, k-1, D) -> (B, k, D, k-1) -> (B*k, D, k-1)
-            others_t = others.transpose(2, 3)
-            others_t_2d = others_t.reshape(B * k, D, (k - 1))
-            Q_big, _ = torch.linalg.qr(others_t_2d.float(), mode='reduced')
-            topk_flat = topk_embs.reshape(B * k, D)
-            topk_flat_unsq = topk_flat.unsqueeze(-1).float()
-            Q_t = Q_big.transpose(-1, -2)
-            coefs = torch.bmm(Q_t, topk_flat_unsq)
-            p = torch.bmm(Q_big, coefs)
-            r = topk_flat_unsq - p
-            e_j_new = alpha * r + beta * p
-            e_j_new = e_j_new.squeeze(-1).reshape(B, k, D)
-            modified_embs = e_j_new.half()
-
-        elif method == 'svd_proj':
-            topk_expanded = topk_embs.unsqueeze(2).expand(B, k, k, D)
-            mask = (~torch.eye(k, dtype=torch.bool, device=device)).unsqueeze(0).expand(B, k, k)
-            others = topk_expanded[mask].view(B, k, k-1, D)
-            others_t = others.transpose(2, 3)
-            others_t_2d = others_t.reshape(B * k, D, (k - 1))
-            U, _, _ = torch.linalg.svd(others_t_2d.float(), full_matrices=False)
-            topk_flat = topk_embs.reshape(B * k, D)
-            topk_flat_unsq = topk_flat.unsqueeze(-1)
-            U_t = U.transpose(-1, -2)
-            coefs = torch.bmm(U_t, topk_flat_unsq.float())
-            p = torch.bmm(U, coefs.float())
-            r = topk_flat_unsq - p
-            e_j_new = alpha * r + beta * p
-            e_j_new = e_j_new.squeeze(-1).reshape(B, k, D)
-            modified_embs = e_j_new.half()
-
-        elif method == 'svd_mm_proj':
-            # 입력 검증: img_embs 필수
-            if img_embs is None:
-                raise ValueError("method='svd_mm_proj' requires `img_embs` to be provided.")
-            
-            # 현재 배치의 이미지 임베딩 추출 (B, D)
-            img_embs_batch = img_embs[start:end].to(device)
-            
-            # 1. Negative 샘플 구성 (자기 자신 제외)
-            # 원본 텐서 확장: (B, k, D) → (B, k, k, D)
-            topk_expanded = topk_embs.unsqueeze(2).expand(B, k, k, D)
-            
-            # 마스크 생성: (k, k) eye 행렬 반전 → (B, k, k)
-            mask = (~torch.eye(k, dtype=torch.bool, device=device)).unsqueeze(0).expand(B, k, k)
-            
-            # 마스크 적용으로 자기 제외 이웃 추출 → (B, k, k-1, D)
-            negative_others = topk_expanded[mask].view(B, k, k-1, D)
-
-            # 2. Positive 샘플 구성 (이미지 임베딩 추가)
-            # topk + 이미지 임베딩 결합 → (B, k+1, D)
-            topk_plus_image = torch.cat([topk_embs, img_embs_batch.unsqueeze(1)], dim=1)
-            
-            # 차원 확장 → (B, k, k+1, D)
-            topk_plus_image = topk_plus_image.unsqueeze(1).expand(B, k, k+1, D)
-
-            # 3. 차원 재구성 (SVD 연산 준비)
-            negative_others_t = negative_others.transpose(2, 3)  # (B, k, D, k-1)
-            neg_2d = negative_others_t.reshape(B * k, D, k - 1)  # (B*k, D, k-1)
-            
-            full_t = topk_plus_image.transpose(2, 3)  # (B, k, D, k+1)
-            full_2d = full_t.reshape(B * k, D, k + 1)  # (B*k, D, k+1)
-
-            # 4. 기준 임베딩 평탄화 (B*k, D)
-            e_j_flat = topk_embs.reshape(B * k, D)
-            e_j_flat_unsq = e_j_flat.unsqueeze(-1)  # (B*k, D, 1)
-
-            # 5. Negative 방향 SVD 투영
-            # SVD: neg_2d = U_neg @ S_neg @ V_neg^T
-            U_neg, _, _ = torch.linalg.svd(neg_2d.float(), full_matrices=False)
-            U_neg_t = U_neg.transpose(-1, -2)  # (B*k, k-1, D)
-            
-            # 투영 계수 계산: c = U^T * e_j
-            coefs_neg = torch.bmm(U_neg_t, e_j_flat_unsq.float())  # (B*k, k-1, 1)
-            
-            # 음성 부분공간 투영: p_neg = U * c
-            p_neg = torch.bmm(U_neg, coefs_neg.float())  # (B*k, D, 1)
-            
-            # 직교 성분 추출: e_j_orth = e_j - p_neg
-            e_j_orth = e_j_flat_unsq - p_neg  # (B*k, D, 1)
-
-            # 6. Positive 방향 SVD 투영
-            U_full, _, _ = torch.linalg.svd(full_2d.float(), full_matrices=False)
-            U_full_t = U_full.transpose(-1, -2)  # (B*k, k+1, D)
-            
-            coefs_full = torch.bmm(U_full_t, e_j_flat_unsq.float())  # (B*k, k+1, 1)
-            p_full = torch.bmm(U_full, coefs_full.float())  # (B*k, D, 1)
-
-            # 7. 최종 임베딩 계산
-            # 가중 합: α*(음성 직교 성분) + β*(양성 투영 성분)
-            e_j_sum = alpha * e_j_orth + beta * p_full  # (B*k, D, 1)
-            
-            # 차원 복원: (B, k, D)
-            e_j_sum = e_j_sum.squeeze(-1).reshape(B, k, D)
-            modified_embs = e_j_sum  # 수정된 임베딩
-
-        elif method == 'geodesic_svd_mm_proj':
-            # 이하 모든 연산은 단위 구면(unit sphere) 상에서의 지오데식 연산 가정
-            topk_embs_batch = topk_embs.to(device, dtype=float)
-            img_embs_batch = img_embs[start:end].to(device, dtype=float)
-            
-            # 차원 정보 추출: [B: 배치, k: 이웃 수, D: 임베딩 차원]
-            B_current, k, D = topk_embs_batch.shape
-            
-            # 1. Negative 샘플 구성 (자기 자신 제외)
-            # 수식: N_ij = {e_m | m ∈ topk, m ≠ j} ∀i,j
-            topk_expanded = topk_embs_batch.unsqueeze(2).expand(B_current, k, k, D)
-            mask = (~torch.eye(k, dtype=torch.bool, device=device)).unsqueeze(0).expand(B_current, k, k)
-            negative_others = topk_expanded[mask].view(B_current, k, k-1, D)
-            
-            # 2. Positive 샘플 구성 (원본 이미지 임베딩 추가)
-            # 수식: P_i = {e_j | j ∈ topk} ∪ {e_img_i}
-            topk_plus_image = torch.cat([topk_embs_batch, img_embs_batch.unsqueeze(1)], dim=1)
-            topk_plus_image = topk_plus_image.unsqueeze(1).expand(B_current, k, k+1, D)
-            
-            # 3. Tangent space 투영 준비
-            # 로그 맵 수식: v = log_e(e') = (e' - (e·e')e) * arccos(e·e') / sqrt(1 - (e·e')²)
-            neg_others_2d = negative_others.reshape(B_current * k, k-1, D)
-            log_neg = log_map_batch(e_j_flat_unsq, neg_others_2d)  # [B*k, k-1, D]
-            log_neg_t = log_neg.transpose(1, 2)  # [B*k, D, k-1]
-            
-            # 4. Negative 방향 주성분 추출 (SVD)
-            # 수식: U_neg Σ_neg V_neg^T = SVD([v_1 | ... | v_{k-1}])
-            U_neg, _, _ = torch.linalg.svd(log_neg_t, full_matrices=False)
-            U_neg_t = U_neg.transpose(-1, -2)  # [B*k, k-1, D]
-            
-            # 5. Tangent 벡터 음성 부분 공간으로 투영
-            # 수식: p_neg = U_neg U_neg^T e_j_tangent
-            coefs_neg = torch.bmm(U_neg_t, e_j_tangent.transpose(1, 2))
-            p_neg = torch.bmm(U_neg, coefs_neg).transpose(1, 2)
-            e_j_orth_tangent = e_j_tangent - p_neg  # 음성 공간 직교 성분
-            
-            # 6. Positive 방향 주성분 추출 (SVD)
-            log_full = log_map_batch(e_j_flat_unsq, full_2d_reshape)  # [B*k, k+1, D]
-            log_full_t = log_full.transpose(1, 2)  # [B*k, D, k+1]
-            U_full, _, _ = torch.linalg.svd(log_full_t, full_matrices=False)
-            U_full_t = U_full.transpose(-1, -2)  # [B*k, k+1, D]
-            
-            # 7. Tangent 벡터 양성 부분 공간으로 투영
-            # 수식: p_full = U_full U_full^T e_j_tangent
-            coefs_full = torch.bmm(U_full_t, e_j_tangent.transpose(1, 2))
-            p_full = torch.bmm(U_full, coefs_full).transpose(1, 2)
-            
-            # 8. 지오데릭 조정: α(분리 강도)와 β(응집 강도)로 가중합
-            # 최종 탄젠트 벡터: v' = α*(e_j_orth) + β*(p_full)
-            e_j_prime_tangent = alpha * e_j_orth_tangent + beta * p_full
-            
-            # 9. 지수 맵으로 매니폴드 복원
-            # 수식: e' = exp_e(v') = cos(||v'||)e + sin(||v'||)v'/||v'||
-            e_j_prime = exp_map_batch(e_j_flat_unsq, e_j_prime_tangent)
-            e_j_prime = e_j_prime.squeeze(1)
-            
-            # 10. 정규화 및 최종 임베딩
-            modified_embs = e_j_prime.reshape(B_current, k, D)
-            modified_embs = (modified_embs / modified_embs.norm(dim=-1, keepdim=True)).half()
-        elif method == 'custom_proj_svd':
-            # topk_embs: (B, k, D) – 배치 내 각 이미지의 top-k 텍스트 임베딩
-            
-            # 1. 각 샘플에 대해 SVD를 수행하여 공통 common vector를 추출
-            #    각 샘플의 임베딩 행렬 X ∈ ℝ^(k×D)에 대해 SVD: X = U S V^T
-            #    여기서 V^T의 첫 번째 행(즉, Vh[:, 0, :])가 principal right singular vector가 됩니다.
-            U, S, Vh = torch.linalg.svd(topk_embs.float(), full_matrices=False)  # Vh: (B, k, D)
-            common = Vh[:, 0, :]          # (B, D), 각 샘플에 대한 공통 벡터
-            common = common.unsqueeze(1)  # (B, 1, D)로 확장하여 브로드캐스트 처리
-
-            # 2. 각 임베딩 eᵢ에서, common vector 방향 성분을 제거하여 orthogonal component rᵢ를 구함
-            #    rᵢ = eᵢ - (eᵢ · common)*common
-            dot = (topk_embs * common).sum(dim=-1, keepdim=True)  # (B, k, 1)
-            proj = dot * common                                   # (B, k, D): 각 eᵢ의 common 방향 성분
-            R = topk_embs - proj                                  # (B, k, D): 각 임베딩의 orthogonal component (r₁, …, rₖ)
-            
-            # 3. 각 샘플에 대해 모든 r의 합을 구함
-            sum_R = R.sum(dim=1, keepdim=True)  # (B, 1, D)
-            
-            # 4. 각 임베딩에 대해 최종 조정:
-            #    eᵢ_adjusted = 2*rᵢ + common - (r₁ + r₂ + ... + rₖ)
-            adjusted = 2 * R + common - sum_R   # (B, k, D)
-            
-            # 5. (옵션) 각 벡터를 단위 벡터로 정규화
-            adjusted = adjusted / adjusted.norm(dim=-1, keepdim=True)
-            
-            modified_embs = adjusted
-
-        else:
-            raise ValueError("Unknown method")
-
-        # (method가 geodesic_svd_mm_proj인 경우 이미 cos_sim을 계산한 경우가 있고, 그 외는 여기서 계산)
-        if method != 'geodesic_svd_mm_proj':
-            cos_sim = torch.nn.functional.cosine_similarity(modified_embs, topk_embs, dim=-1).mean()
-
-        # 배치 결과는 CPU로 옮겨서 저장합니다.
-        modified_embs_list.append(modified_embs.cpu())
-        cos_sim_list.append(cos_sim.item())
-
-    # 모든 배치 결과를 하나로 합칩니다.
-    modified_embs_full = torch.cat(modified_embs_list, dim=0).cuda()
-    mean_cos_sim = sum(cos_sim_list) / len(cos_sim_list)
-    return modified_embs_full, mean_cos_sim
 
 
 
@@ -642,135 +401,23 @@ def build_modified_text_embs(
 # ----------------------------------------------------------------
 # 5) Evaluate the new embeddings and collect top-5 predictions
 # ----------------------------------------------------------------
-def evaluate_modified_embeddings(
-    dataloader,
-    model,
-    modified_embs,
-    topk_indices,
-    classnames,
-    device='cuda'
-):
-    """
-    - modified_embs: (N, k, D) from build_modified_text_embs
-    - topk_indices: (N, k)
-    - We'll assume dataloader iterates in the *same order* as the first pass.
 
-    For each batch, we do:
-       image_embs: (B, D)
-       text_embs:  (B, k, D)  => slice from modified_embs using idx range [idx_counter : idx_counter+B]
-       => broadcast mul => sum => (B, k)
-    Then pick argmax among k. Compare to ground truth if you need accuracy.
-    """
-    model.eval()
-    idx_counter = 0
-
-    top1_correct = 0
-    top5_correct = 0
-    total = 0
-
-    with torch.no_grad():
-        for batch in tqdm(dataloader, desc="Evaluating modified embeddings"):
-            batch = maybe_dictionarize_batch(batch)
-            images, labels = batch['images'].cuda(), batch['labels'].cuda()
-
-            B = images.size(0)
-            # 1) Compute image embeddings
-            image_embs = model.encode_image(images)
-            image_embs = image_embs / image_embs.norm(dim=-1, keepdim=True)  # (B, D)
-
-            # 2) Gather the slice of text embeddings for these B images
-            #    shape (B, k, D)
-            text_emb_slice = modified_embs[idx_counter: idx_counter + B].to(device)
-
-            # 3) Compute dot product => (B, k)
-            # Broadcast multiply:
-            #   image_embs: (B, D) -> (B, 1, D)
-            #   text_emb_slice: (B, k, D)
-            # so result => (B, k, D), sum over D => (B, k)
-            logits = 100.0 * torch.sum(
-                image_embs.unsqueeze(1) * text_emb_slice, dim=-1
-            )
-
-            # 4) Get top-5 indices among the k available classes
-            top5_idx = torch.topk(logits, k=min(5, logits.size(1)), dim=1, largest=True, sorted=True).indices  # shape (B, 5)
-
-            # 5) If we want to measure actual accuracy vs. ground truth:
-            #    We know topk_indices[i][ top5_idx[i] ] are the class indices chosen.
-            slice_topk = topk_indices[idx_counter: idx_counter + B]  # shape (B, k)
-            chosen_cls_idx = slice_topk[torch.arange(B).unsqueeze(1), top5_idx]  # shape (B, 5)
-
-            # 6) Convert indices to class names and compare with ground truth
-            for local_b in range(B):
-                true_cname = classnames[labels[local_b].item()]
-                pred_cnames = [classnames[idx.item()] for idx in chosen_cls_idx[local_b]]
-
-                if true_cname == pred_cnames[0]:  # Top-1 match
-                    top1_correct += 1
-                if true_cname in pred_cnames:  # Top-5 match
-                    top5_correct += 1
-
-            idx_counter += B
-            total += B
-
-    top1_acc = 100.0 * top1_correct / total
-    top5_acc = 100.0 * top5_correct / total
-
-    print(f"[Modified Embeddings] Top-1 Accuracy: {top1_acc:.2f}% | Top-5 Accuracy: {top5_acc:.2f}% on {total} images.")
-    return top1_acc, top5_acc
-
-def evaluate_modified_embeddings_vectorized(
-    args,
-    dataloader,
-    model,
-    modified_embs,    # (N, k, D)
-    topk_indices,     # (N, k)
-    class_embeddings, # (C, D)
-    device='cuda',
-    img_embs=None,
-    all_labels=None
-):
-    model.eval()
-    all_probs = []
-    # 1. Compute all image embeddings in one pass
-
-    # 2. Compute logits in batches to save memory
-    batch_size = 8192  # 메모리에 맞게 조정
-    num_batches = (len(img_embs) + batch_size - 1) // batch_size
-    all_logits = []
-    
-    for i in tqdm(range(num_batches), desc="Computing logits"):
-        start = i * batch_size
-        end = min((i+1)*batch_size, len(img_embs))
-        img_batch = img_embs[start:end]  # (B, D)
-        mod_emb_batch = modified_embs[start:end]  # (B, k, D)
-        
-        # Batch matrix multiplication (B, 1, D) * (B, k, D) -> (B, k)
-        logits = 100.0 * torch.einsum('bd,bkd->bk', img_batch, mod_emb_batch)
-        all_logits.append(logits)
-    
-    all_logits = torch.cat(all_logits, dim=0)  # (N, k)
-    
-    # 3. Get predictions using top-k indices
-    # Convert topk_indices to class labels
-    topk_classes = topk_indices  # (N, k)
-    
-    # Get predicted class indices
-    pred_indices = topk_classes[torch.arange(len(all_logits)).unsqueeze(-1), 
-                                all_logits.argsort(dim=1, descending=True)]
-    
-    # Calculate accuracy
-    top1 = (pred_indices[:, 0] == all_labels).float().mean().item() * 100
-    top5 = (pred_indices[:, :5] == all_labels.unsqueeze(-1)).any(dim=1).float().mean().item() * 100
-    
-    print(f"Top-1 Accuracy: {top1:.2f}%, Top-5 Accuracy: {top5:.2f}%")
-    return top1, top5
 
 def main():
     args = parse_arguments()
     device = 'cuda'
+    
+    if args.custom_template == 'default':    
+        template = openai_imagenet_template
+    elif args.custom_template == 'simple':
+        template = [lambda x : f"a photo of a {x}."]
+    elif args.custom_template == 'class':
+        template = [lambda x : f"{x}."]
+    else:
+        raise ValueError(f"Unknown template: {args.custom_template}")
     model, preprocess = clip.load(args.model, device=device)
 
-    print(f"{len(openai_classnames)} classes, {len(openai_imagenet_template)} templates")
+    print(f"{len(openai_classnames)} classes, {len(template)} templates")
 
     dataset = getattr(datasets, args.dataset)(
         preprocess,
@@ -783,7 +430,7 @@ def main():
     # Collect top-k predictions for each image (if not cached)
     topk_pred_path = f'./results/Imagewise_{args.dataset}_top{args.topk}_predictions_{args.model.replace("/", "_").replace("-", "_")}.npy'
     if not os.path.exists(topk_pred_path):
-        zeroshot_weights = zeroshot_classifier(args, model, openai_classnames, openai_imagenet_template)
+        zeroshot_weights = zeroshot_classifier(args, model, openai_classnames, template)
         topk_predictions = collect_topk_indices(
             dataloader, model, zeroshot_weights, 
             k=args.topk, device=device
@@ -814,12 +461,12 @@ def main():
         torch.save(all_labels, f'./checkpoints/{args.dataset}_{args.model.replace("/", "_").replace("-", "_")}_Labels.pt')
     
 
-    zeroshot_weights = zeroshot_classifier(args, model, openai_classnames, openai_imagenet_template)
+    zeroshot_weights = zeroshot_classifier(args, model, openai_classnames, template)
     class_embeddings = zeroshot_weights.t().cuda()  # (C, D)
 
     for alpha in [1.0,]:
-        for beta in [0]:
-            for method in ['geodesic_svd_mm_proj']:
+        for beta in [0.8, 0]:
+            for method in ['text_svd_proj']:
                 args.alpha = alpha
                 args.beta = beta
                 args.method = method
